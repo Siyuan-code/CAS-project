@@ -1,0 +1,70 @@
+.one {
+  line-height: 2.5em;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  text-transform: uppercase;
+  text-decoration: overline;
+}
+h1 {
+  /* background: red; */
+  padding: 30px;
+  margin: 50px;
+  /* border: 10px solid yellow; */
+  /* border-bottom-style: groove; */
+  /* border-bottom-width: 10px; */
+  /* border: 5px solid black; */
+  /* border-radius: 20px; */
+  /* margin-top: -100px; */
+  /* outline-style: solid; */
+  /* outline-offset: 30px; */
+}
+p {
+  background: blue;
+  /* border-radius: 50%; */
+}
+.block {
+  background: blue;
+  /* display: inline; */
+  width: 60px;
+  margin: 0 auto;
+}
+.inline {
+  background: red;
+}
+body {
+  text-align: center;
+}
+ul li {
+  list-style-type: armenian;
+}
+ul a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: blue;
+  color: red;
+  padding: 5px;
+  margin: 10px 10px;
+  display: block;
+}
+
+a {
+  background: green;
+  font-size: 30px;
+  margin: 30px;
+  display: inline-block;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+
+.box-1 {
+  background: red;
+  padding: 20px;
+  box-sizing: border-box;
+}
