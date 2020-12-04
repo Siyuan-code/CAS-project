@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .one {
   line-height: 2.5em;
   letter-spacing: 5px;
@@ -67,4 +73,139 @@ a {
   background: red;
   padding: 20px;
   box-sizing: border-box;
+}
+
+div {
+  /* background: blue; */
+  /* margin: 10px; */
+  /* color: green; */
+  /* min-height: 100vh; */
+  /* font-size: 60px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* width: 150px; */
+  /* height: 150px; */
+}
+.none {
+  display: none;
+}
+.opacity {
+  opacity: 1;
+}
+.opacity-0 {
+  opacity: 0.5;
+}
+.visibility {
+  visibility: visible;
+}
+
+.big-img {
+  background: url("/Image/big.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-position: center; */
+  background-position: 20%, 50%;
+  background-attachment: local;
+}
+.small-img {
+  background: url("/Image/favicon.png");
+}
+.folder-img {
+  background: url("/Image/pexels-đạt-nguyễn-5606418.jpg");
+}
+
+.one {
+  /* background: linear-gradient(red, green); */
+}
+
+.two {
+  /* background: linear-gradient(to top, red, green); */
+}
+
+.four {
+  /* background: linear-gradient(315deg, red, green); */
+}
+
+.three {
+  /* background: linear-gradient(to top right, red, green); */
+}
+.five {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)); */
+}
+.six {
+  /* background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)); */
+}
+.banner {
+  background: url("/Image/big.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Image/big.jpeg") center/cover no-repeat fixed;
+}
+.ColorZilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,31b71d+13,31b71d+46,7db9e8+100&0.53+0,1+100 */
+  background: -moz-linear-gradient(
+    left,
+    rgba(30, 87, 153, 0.53) 0%,
+    rgba(49, 183, 29, 0.59) 13%,
+    rgba(49, 183, 29, 0.75) 46%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(30, 87, 153, 0.53) 0%,
+    rgba(49, 183, 29, 0.59) 13%,
+    rgba(49, 183, 29, 0.75) 46%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(30, 87, 153, 0.53) 0%,
+    rgba(49, 183, 29, 0.59) 13%,
+    rgba(49, 183, 29, 0.75) 46%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#871e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+.bannerr {
+  border: 5px solid red;
+  padding: 10px;
+}
+
+.big {
+  float: right;
+  margin-left: 15px;
+}
+
+#lorem {
+  color: red;
+  background: none;
+  clear: none;
+}
+
+.seven {
+  float: left;
+  background: red;
+  height: 200px;
+  width: 33.33%;
+}
+.eight {
+  float: left;
+  background: blue;
+  height: 200px;
+  width: 33.33%;
+}
+
+.nine {
+  float: left;
+  background: green;
+  height: 200px;
+  width: 33.33%;
 }
