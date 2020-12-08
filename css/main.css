@@ -209,3 +209,381 @@ div {
   height: 200px;
   width: 33.33%;
 }
+
+button {
+  background: red;
+  font-size: 40px;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+div {
+  /* border: 3px solid red; */
+  /* background: yellow; */
+  /* margin-top: 40px; */
+  /* position: relative; */
+}
+.one1 {
+  background: blue;
+  /* position: relative; */
+  /* top: 50px; */
+  /* left: 20rem; */
+  /* right: 50%; */
+  /* bottom: 40px; */
+}
+.two2 {
+  background: blue;
+}
+.special {
+  background: red;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body {
+  background: yellow;
+}
+.banner {
+  background: blue;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+@media screen and (min-width: 576px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    color: black;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background: green;
+  }
+  .banner {
+    background: blue;
+  }
+  h1 {
+    color: red;
+    font-size: 60px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    background: green;
+  }
+  .banner {
+    background: blue;
+    border-radius: 20px;
+  }
+  h1 {
+    color: red;
+    font-size: 60px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.banner {
+  margin: 20px;
+  width: 80vw;
+  height: 70vh;
+  border: 5px solid red;
+  position: relative;
+}
+.oneone {
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.twotwo {
+  top: 10%;
+  left: 10%;
+  z-index: 4;
+}
+.three3 {
+  top: 20%;
+  left: 20%;
+  z-index: 10;
+}
+
+p::before {
+  content: "hello";
+  display: block;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+
+p::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: green;
+}
+div {
+  /* width: 50vw; */
+  /* margin: 100px auto; */
+  /* border: 2px solid red; */
+}
+img {
+  width: 100%;
+  display: block;
+}
+div::before {
+  /* content: ""; */
+  /* border: 2px solid grey; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* position: absolute; */
+  /* box-sizing: border-box; */
+  /* top: -40px; */
+  /* left: -40px; */
+  /* z-index: -2; */
+}
+
+div h1 {
+  color: red;
+}
+
+div > h1 {
+  color: blue;
+}
+
+.header h1 {
+  color: green;
+}
+
+.header > h1 {
+  color: purple;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+p::first-letter {
+  font-size: 3rem;
+}
+p:hover {
+  color: red;
+}
+.header hover {
+  background: blue;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+
+a:link {
+  color: aqua;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+a:active {
+  color: green;
+}
+
+:root {
+  /* background: red; */
+  font-size: 150%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+.absolute {
+  font-size: 24px;
+}
+.responsive {
+  font-size: 1.5rem;
+}
+
+div {
+  /* width: 150px; */
+  /* height: 150px; */
+  /* display: inline-block; */
+}
+div:hover {
+  /* background: aquamarine; */
+}
+.one11 {
+  background: red;
+  transform: translateX(50%);
+  transform: scaleX(2);
+  transform: skewX(-20deg);
+}
+.two22 {
+  background: green;
+  transform: translateY(30px);
+  transform: scaleY(2);
+  transform: rotateZ(45deg);
+  transition: background 3s;
+}
+.three33 {
+  background: blue;
+  transform: translate(20px, 30px);
+  transform: scale(1.5, 1.5);
+  transition-property: background, border-radius;
+  transition-duration: 5s;
+  transition-delay: 3s;
+}
+.three33:hover {
+  border-radius: 50%;
+  transition-property: background 3s 2s, border-radius 5s 1s;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  /* background: blue; */
+  color: white;
+  margin: 10px;
+  /* transition: all 1s ease; */
+}
+div:hover {
+  /* transform: translateX(100px); */
+}
+.ease {
+  transition-timing-function: ease;
+}
+.ease-in {
+  transition-timing-function: ease-in;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+.transition {
+  background: red;
+  transition: all 2s linear;
+}
+.transition:hover {
+  background: yellow;
+  transform: translateX(100px);
+}
+.animation {
+  background: blue;
+  /* animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 2; */
+  animation: move 5s infinite;
+  animation-fill-mode: forwards;
+}
+
+/* @keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: red;
+  }
+  75% {
+    transform: translateX(-200px);
+    background: yellow;
+  }
+  100% {
+    transform: translateX(20px);
+    background: green;
+  }
+} */
+
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0.5;
+  }
+}
+
+/* .heading {
+  color: red;
+}
+.text {
+  color: greenyellow;
+}
+.main-text {
+  color: blue;
+}
+.sceond-heading {
+  color: orange;
+} */
+
+/* :root {
+  --primaryColor: #f15025;
+  --secondaryColor: #1313fa;
+  --mainTransition: all 0.4s linear;
+}
+.heading {
+  color: var(--primaryColor);
+}
+.second-heading {
+  color: var(--primaryColor);
+}
+.second-heading:hover {
+  color: var(--secondaryColor);
+}
+div {
+  --primaryRed: red;
+}
+.main-text {
+  color: var(--primaryRed);
+}
+.third-heading{
+  color: var(--primaryRed);
+} */
+
+h1 {
+  text-shadow: 5px 1px 6px blue;
+}
+.box {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  transition: all 0.5s linear;
+}
+.box:hover {
+  box-shadow: 3px 5px 5px yellow;
+}
