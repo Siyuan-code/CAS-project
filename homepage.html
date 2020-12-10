@@ -5,15 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>D mall</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="main.js"></script>
   </head>
   <body>
-    <div class="header">
-      <h1>Welcome to D mall Homepage</h1>
-      <button id="sign_in">
-        <a href="index.html">Sign in</a>
-      </button>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#">about</a>
+      <a href="#">setting</a>
     </div>
+    <span onclick="openNav()" class="open">
+      <div class="menu"></div>
+      <div class="menu"></div>
+      <div class="menu"></div>
+    </span>
 
-    <div class="image"></div>
+    <div id="main">
+      <div class="header">
+        <h1>The Mall of Liberty</h1>
+      </div>
+
+      <div class="image">
+        <img
+          src="/Image/favicon.png"
+          alt="New federal states of china"
+          width="auto"
+          height="auto"
+        />
+      </div>
+    </div>
   </body>
 </html>
