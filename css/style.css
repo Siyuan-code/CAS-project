@@ -7,7 +7,6 @@
 .header {
   font-size: 35px;
   text-align: center;
-  padding: 0;
   border-bottom: 1px solid black;
 }
 
@@ -76,4 +75,41 @@ a:hover {
   height: 5px;
   background: black;
   margin: 6px 10px;
+}
+
+form.search input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: lightgrey;
+  display: block;
+  position: absolute;
+  top: 170px;
+}
+
+form.search button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: lightblue;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  position: absolute;
+  top: 170px;
+  right: 10px;
+}
+
+form.search button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
 }
