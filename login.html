@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body >
+    <div class="container">
+    <form
+      action="action_page.php"
+      style="border: 1px solid black"
+      class="myLogin"
+    >
+      <h1 class="title">Welcome to The Mall of Youth</h1>
+      
+
+      <label for="Email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required />
+
+      <label for="password"><b>password</b></label>
+      <input
+        type="password"
+        name="password"
+        placeholder="type password"
+        required
+      />
+
+      <label for="password-confirm"><b>Confirm Password</b></label>
+      <input
+        type="password"
+        placeholder="Confirm password"
+        name="password-confirm"
+        required
+      />
+
+      <label for="checkbox" name="remember" style="margin-bottom: 15px"></label>
+
+      <p>
+        By creating an account you agree to our
+        <a href="#" style="color: rgb(78, 168, 241)">Terms & Privacy</a>
+      </p>
+
+      <div class="clearfix">
+        <button type="button" class="loginbtn">
+          <a href="homepage.html">login</a>
+        </button>
+      </div>
+    </div>
+    </form>
+  </body>
+</html>

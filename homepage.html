@@ -20,16 +20,25 @@
       </form>
 
       <button class="sign-in">
-        <p>SIGN IN</p>
+        <a href="login.html">SIGN IN</a>
       </button>
     </div>
 
     <div id="mySide-menu" class="side-menu">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-        <i id="menu" class="fas fa-bars"></i>
-      </a>
-      <a href="#">home</a>
-      <i id="home-in" class="fas fa-home"></i>
+      <a href="#"><h3 id="mall">The Mall of Youth</h3></a>
+      <ul>
+        <li>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <i id="menu" class="fas fa-bars"></i>
+          </a>
+        </li>
+
+        <li>
+          <a class="homebtn" href="#"
+            ><i id="home-in" class="fas fa-home"></i>home</a
+          >
+        </li>
+      </ul>
     </div>
 
     <div class="shop">
@@ -38,6 +47,23 @@
       <p class="t-home">home</p>
     </div>
 
-    <div class="main-content"></div>
+    <div id="myMain-content" class="main-content">
+      <div class="subpage">
+        <a href="#">Stock photos</a>
+        <a href="#">Art paints</a>
+        <a href="#">Blogs</a>
+      </div>
+
+      <!-- <div class="image">
+        <img src="/Image/Lake.jpeg" class="theImage" />
+      </div>
+      <p class="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat totam
+        delectus quaerat quod excepturi ut illum blanditiis, voluptates dicta
+        aperiam impedit nostrum, magnam harum assumenda. Beatae, quis illo sed
+        aliquam perspiciatis non unde rerum eius repellat sapiente cupiditate?
+        Repellat, eum!
+      </p> -->
+    </div>
   </body>
 </html>

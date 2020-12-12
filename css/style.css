@@ -4,6 +4,55 @@
   box-sizing: border-box;
 }
 
+.title {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+form label {
+  margin-left: 20px;
+  font-family: fantasy;
+}
+
+form.myLogin input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+form.myLogin input[type="text"]:focus,
+input[type="password"]:focus {
+  background: #ddd;
+  outline: none;
+}
+
+button {
+  background: paleturquoise;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.loginbtn {
+  float: left;
+  width: 50%;
+}
+
 .header {
   font-size: 12px;
   color: black;
@@ -11,6 +60,16 @@
   left: 100px;
   margin-top: 10px;
   overflow-x: hidden;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 #main {
@@ -48,7 +107,7 @@ form.search button {
 }
 
 form.search button:hover {
-  background: #0b7dda;
+  background: rgb(204, 204, 204);
 }
 
 form.search::after {
@@ -69,6 +128,12 @@ form.search::after {
   margin-top: 10px;
   position: absolute;
   right: 10px;
+  cursor: pointer;
+}
+
+.sign-in a {
+  text-decoration: none;
+  color: rgb(20, 129, 255);
 }
 
 #menu {
@@ -82,7 +147,6 @@ form.search::after {
 }
 
 #menu:hover {
-  color: lightblue;
   cursor: pointer;
 }
 
@@ -136,34 +200,79 @@ form.search::after {
   background-color: lightgray;
   overflow-x: hidden;
   padding-top: 60px;
-  transition: 0.5s;
+  transition: all 0.2s ease;
+  list-style: none;
+  text-decoration: none;
 }
 
-.side-menu a {
+#mall {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  color: black;
+}
+
+.side-menu ul a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: black;
+  color: rgb(0, 0, 0);
   display: block;
   transition: 0.3s;
+  box-sizing: border-box;
 }
 
-a:hover {
-  color: darkblue;
+.side-menu ul a i {
+  margin-right: 16px;
+}
+
+.homebtn:hover {
+  background: rgb(245, 239, 239);
 }
 
 .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
   font-size: 36px;
-  margin-left: 50px;
-}
-
-#main {
-  transition: margin-left 0.5s;
 }
 
 .open {
   cursor: pointer;
 }
+
+.subpage {
+  background: rgb(51, 51, 51);
+  margin: 0px;
+  position: sticky;
+}
+
+.subpage a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(196, 196, 196);
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  padding: 16px 24px;
+}
+
+.subpage a:hover {
+  background: rgb(90, 90, 90);
+}
+
+/* .image {
+  position: relative;
+  z-index: 1;
+  top: 0px;
+}
+.image .theImage {
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.paragraph {
+  padding: 0px 24px;
+  text-align: justify;
+  font-size: 20px;
+} */
