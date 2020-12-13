@@ -1,37 +1,12 @@
 function openNav() {
-  document.getElementById("mySidenav").style.width = "150px";
+  document.getElementById("mySide-menu").style.width = "250px";
   document.getElementById("main").style.marginLeft = "150px";
+  document.getElementById("myMain-content").style.backgroundColor =
+    "rgba(0,0,0,0.4)";
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("mySide-menu").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
-}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides((slideIndex += n));
-}
-
-function currentSlide(n) {
-  showSlides((slideIndex = n));
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" actice", "");
-  }
-  slides[slidesIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
+  document.getElementById("myMain-content").style.backgroundColor = "white";
 }

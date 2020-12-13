@@ -4,108 +4,110 @@
   box-sizing: border-box;
 }
 
-.header {
-  font-size: 35px;
+.title {
+  font-size: 50px;
+  color: black;
   text-align: center;
-  border-bottom: 1px solid black;
+  margin-top: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: black;
-  overflow-x: hidden;
-  padding-top: 60px;
-  transition: 0.5s;
+form label {
+  margin-left: 20px;
+  font-family: fantasy;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: aqua;
-  display: block;
-  transition: 0.3s;
+form.myLogin input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
 }
 
-a:hover {
-  color: azure;
+form.myLogin input[type="text"]:focus,
+input[type="password"]:focus {
+  background: #ddd;
+  outline: none;
 }
 
-.closebtn {
+button {
+  background: paleturquoise;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.loginbtn {
+  float: left;
+  width: 50%;
+}
+
+.header {
+  font-size: 12px;
+  color: black;
   position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  left: 100px;
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 #main {
-  transition: margin-left 0.5s;
-  padding: 20px;
-}
-
-@media screen and (max-height: 45opx) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
-.open:hover {
-  background-color: lightblue;
-  cursor: pointer;
-}
-/* .image {
-  display: block;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-} */
-
-.menu {
-  width: 35px;
-  height: 5px;
-  background: black;
-  margin: 6px 10px;
+  height: 55px;
+  width: 1275px;
+  border-bottom: 1px solid rgba(201, 200, 200, 0.699);
+  margin-left: 75px;
+  overflow-x: hidden;
 }
 
 form.search input[type="text"] {
-  padding: 10px;
+  padding: 5px;
   font-size: 17px;
   border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: lightgrey;
+  float: center;
+  width: 40%;
+  background: white;
   display: block;
   position: absolute;
-  top: 170px;
+  left: 410px;
+  margin-top: 10px;
 }
 
 form.search button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: lightblue;
-  color: white;
+  width: 50px;
+  padding: 5px;
+  background: rgb(243, 243, 243);
+  color: rgb(138, 138, 138);
   font-size: 17px;
   border: 1px solid grey;
-  border-left: none;
   cursor: pointer;
   position: absolute;
-  top: 170px;
-  right: 10px;
+  margin-top: 10px;
+  right: 310px;
 }
 
 form.search button:hover {
-  background: #0b7dda;
+  background: rgb(204, 204, 204);
 }
 
 form.search::after {
@@ -114,70 +116,163 @@ form.search::after {
   display: table;
 }
 
-/* .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: 400px;
-}
-
-.mySlides {
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6 ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.text {
-  color: #f2f2f2;
+.sign-in {
+  background: white;
+  width: 100px;
+  height: 40px;
+  color: rgb(20, 129, 255);
   font-size: 15px;
-  padding: 8px 12px;
+  float: left;
+  border: 1.5px solid rgb(20, 129, 255);
+  border-radius: 5px;
+  margin-top: 10px;
   position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+  right: 10px;
+  cursor: pointer;
 }
 
-.numbertext {
-  color: #f2f2f2;
+.sign-in a {
+  text-decoration: none;
+  color: rgb(20, 129, 255);
+}
+
+#menu {
+  font-size: 20px;
+  color: rgb(109, 107, 107);
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+#menu:hover {
+  cursor: pointer;
+}
+
+#home {
+  font-size: 20px;
+  color: rgb(109, 107, 107);
+  position: absolute;
+  top: 67px;
+  left: 1px;
+  padding: 20px 25px;
+  overflow-x: hidden;
+}
+
+#home:hover {
+  background: lightgray;
+  cursor: pointer;
+}
+
+.t-home {
+  position: absolute;
   font-size: 12px;
-  padding: 8px 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(85, 83, 83);
+  top: 110px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.shop {
+  height: 100%;
+  width: 75px;
+  position: fixed;
+}
+
+.main-content {
+  width: 1200px;
+  height: 100%;
+  position: absolute;
+  top: 55px;
+  margin-left: 75px;
+  background: rgb(248, 248, 248);
+}
+
+.side-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: lightgray;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: all 0.2s ease;
+  list-style: none;
+  text-decoration: none;
+}
+
+#mall {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  color: black;
+}
+
+.side-menu ul a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  display: block;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.side-menu ul a i {
+  margin-right: 16px;
+}
+
+.homebtn:hover {
+  background: rgb(245, 239, 239);
+}
+
+.closebtn {
   position: absolute;
   top: 0;
+  font-size: 36px;
 }
 
-.dot {
+.open {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
 }
 
-.active,
-.dot:hover {
-  background-color: #717171;
+.subpage {
+  background: rgb(51, 51, 51);
+  margin: 0px;
+  position: sticky;
+}
+
+.subpage a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(196, 196, 196);
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  padding: 16px 24px;
+}
+
+.subpage a:hover {
+  background: rgb(90, 90, 90);
+}
+
+/* .image {
+  position: relative;
+  z-index: 1;
+  top: 0px;
+}
+.image .theImage {
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.paragraph {
+  padding: 0px 24px;
+  text-align: justify;
+  font-size: 20px;
 } */
