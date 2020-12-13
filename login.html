@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepage</title>
+    <title>The Mall of Youth</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body >
+
+    <div class="title-top"><h1 class="title">Welcome to The Mall of Youth !</h1></div>
+
     <div class="container">
     <form
       action="action_page.php"
-      style="border: 1px solid black"
       class="myLogin"
-    >
-      <h1 class="title">Welcome to The Mall of Youth</h1>
       
-
+    >
       <label for="Email"><b>Email</b></label>
       <input type="text" placeholder="Enter Email" name="email" required />
 
@@ -26,28 +26,35 @@
         placeholder="type password"
         required
       />
-
-      <label for="password-confirm"><b>Confirm Password</b></label>
+        <a href="#" class="register"><p>Register an account</p></a>
+      <!-- <label for="password-confirm"><b>Confirm Password</b></label>
       <input
         type="password"
         placeholder="Confirm password"
         name="password-confirm"
         required
-      />
+      /> -->
 
       <label for="checkbox" name="remember" style="margin-bottom: 15px"></label>
 
-      <p>
+      <!-- <p>
         By creating an account you agree to our
         <a href="#" style="color: rgb(78, 168, 241)">Terms & Privacy</a>
-      </p>
+      </p> -->
 
       <div class="clearfix">
-        <button type="button" class="loginbtn">
+        <a href="homepage.html">
+          <button type="button" class="loginbtn">Login</button>
+        </a>
+        <!-- <button type="button" class="loginbtn">
           <a href="homepage.html">login</a>
-        </button>
+        </button> -->
       </div>
     </div>
     </form>
+
+    <!-- <div class="image-lake">
+      <img src="./Image/WhatsApp Image 2020-12-10 at 7.15.07 PM.jpeg" alt="Lake" >
+    </div> -->
   </body>
 </html>
