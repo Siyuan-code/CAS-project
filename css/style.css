@@ -85,6 +85,17 @@ button:hover {
 
 /* Homepage */
 
+/* Style the whole top div of the homepage */
+#main {
+  height: 55px;
+  width: 1200px;
+  border-bottom: 1px solid rgba(201, 200, 200, 0.699);
+  background: white;
+  margin-left: 75px;
+  overflow-x: hidden;
+  position: fixed;
+  z-index: 1;
+}
 /* Style the header of the homepage */
 .header {
   font-size: 12px;
@@ -93,14 +104,6 @@ button:hover {
   left: 100px;
   margin-top: 10px;
   overflow: hidden;
-}
-/* Style the whole top div of the homepage */
-#main {
-  height: 55px;
-  width: 1200px;
-  border-bottom: 1px solid rgba(201, 200, 200, 0.699);
-  margin-left: 75px;
-  overflow-x: hidden;
 }
 /* Style of input field of the search box */
 form.search input[type="text"] {
