@@ -353,6 +353,10 @@ form.search::after {
   float: center;
 }
 
+.lake {
+  display: block;
+}
+
 /* .btns {
   background: white;
   padding: 20px 20px;
