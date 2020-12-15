@@ -1,15 +1,19 @@
+/* Setting for all */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Login page */
+
+/* Style of the div of title of the login page */
 .title-top {
   width: 100%;
   height: 60px;
   background: lightblue;
 }
-
+/* Style of the header of the login page */
 .title {
   font-size: 50px;
   color: black;
@@ -17,24 +21,24 @@
   margin-top: 40px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
+/* Style of the button of login page */
 .myLogin {
   position: absolute;
   top: 150px;
   right: 260px;
 }
-
+/* Style of the label (username, password, etc.) in the form */
 form label {
   margin-left: 20px;
   font-family: fantasy;
 }
-
+/* Style the sentence of "register an account" */
 .register {
   text-decoration: underline;
   color: black;
   font-family: "Times New Roman", Times, serif;
 }
-
+/* Style the input field of the form in login page */
 form.myLogin input[type="text"],
 input[type="password"] {
   width: 170%;
@@ -44,14 +48,20 @@ input[type="password"] {
   border: none;
   background: #f1f1f1;
 }
-
+/* Have black shadow on input field while click on it */
 form.myLogin input[type="text"]:focus,
 input[type="password"]:focus {
   background: #ddd;
   outline: none;
 }
-
-button {
+/* Change the opacity of all buttons to 1 when hover through */
+button:hover {
+  opacity: 1;
+}
+/* Style the login button */
+.loginbtn {
+  float: left;
+  width: 50%;
   background: paleturquoise;
   color: black;
   padding: 14px 20px;
@@ -60,52 +70,42 @@ button {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+  outline: none;
 }
-
-button:hover {
-  opacity: 1;
-}
-
-.loginbtn {
-  float: left;
-  width: 50%;
-}
-
-/* .image-lake {
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 100px;
-  z-index: -1;
-} */
-
-.header {
-  font-size: 12px;
-  color: black;
-  position: absolute;
-  left: 100px;
-  margin-top: 10px;
-  overflow-x: hidden;
-}
-
+/* Style the whole form */
 .container {
   padding: 100px;
 }
-
+/* Have the border include the form (clearfix effect) */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
+/* Homepage */
+
+/* Style the whole top div of the homepage */
 #main {
   height: 55px;
-  width: 1275px;
+  width: 1200px;
   border-bottom: 1px solid rgba(201, 200, 200, 0.699);
+  background: white;
   margin-left: 75px;
   overflow-x: hidden;
+  position: fixed;
+  z-index: 1;
 }
-
+/* Style the header of the homepage */
+.header {
+  font-size: 12px;
+  color: black;
+  position: absolute;
+  left: 100px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+/* Style of input field of the search box */
 form.search input[type="text"] {
   padding: 5px;
   font-size: 17px;
@@ -118,7 +118,7 @@ form.search input[type="text"] {
   left: 410px;
   margin-top: 10px;
 }
-
+/* Style of the search button */
 form.search button {
   width: 50px;
   padding: 5px;
@@ -141,7 +141,7 @@ form.search::after {
   clear: both;
   display: table;
 }
-
+/* Style of the sign in button */
 .sign-in-btn {
   background: white;
   width: 100px;
@@ -149,19 +149,21 @@ form.search::after {
   color: rgb(20, 129, 255);
   font-size: 15px;
   float: left;
-  border: 1.5px solid rgb(20, 129, 255);
+  border: 1.5px solid rgb(12, 103, 207);
   border-radius: 5px;
   margin-top: 10px;
   position: absolute;
   right: 10px;
   cursor: pointer;
+  outline: none;
 }
-
+/* Style of the text of the sign in button */
 .sign-in-text {
   position: absolute;
   top: 10px;
+  left: 20px;
 }
-
+/* Style of the menu icon at the side */
 #menu {
   font-size: 20px;
   color: rgb(109, 107, 107);
@@ -175,7 +177,7 @@ form.search::after {
 #menu:hover {
   cursor: pointer;
 }
-
+/* Style of the home icon at the side */
 #home {
   font-size: 20px;
   color: rgb(109, 107, 107);
@@ -190,7 +192,7 @@ form.search::after {
   background: lightgray;
   cursor: pointer;
 }
-
+/* Style of the text below the home icon */
 .t-home {
   position: absolute;
   font-size: 12px;
@@ -200,22 +202,13 @@ form.search::after {
   left: 18px;
   cursor: pointer;
 }
-
+/* Style of the side bar visible */
 .shop {
-  height: 100%;
+  height: max-content;
   width: 75px;
   position: fixed;
 }
-
-.main-content {
-  width: 1200px;
-  height: 100%;
-  position: absolute;
-  top: 55px;
-  margin-left: 75px;
-  background: rgb(248, 248, 248);
-}
-
+/* Style the hided side menu */
 .side-menu {
   height: 100%;
   width: 0;
@@ -230,14 +223,14 @@ form.search::after {
   list-style: none;
   text-decoration: none;
 }
-
+/* Style the title (The mall of Youth) in the hided side menu */
 #mall {
   position: absolute;
   top: 20px;
   left: 60px;
   color: black;
 }
-
+/* Style the links in the hided side menu */
 .side-menu ul a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -247,35 +240,38 @@ form.search::after {
   transition: 0.3s;
   box-sizing: border-box;
 }
-
+/* Style the icon of the link in the hided side menu */
 .side-menu ul a i {
   margin-right: 16px;
 }
-
+/* Hover home button in the hided side menu */
 .homebtn:hover {
   background: rgb(245, 239, 239);
 }
-
+/* Style the menu icon in the hided side menu */
 .closebtn {
   position: absolute;
   top: 0;
   font-size: 36px;
 }
-
+/* Style the menu icon in the visible side menu */
 .open {
   cursor: pointer;
 }
-
-.subpage {
-  background: rgb(51, 51, 51);
-  margin: 0px;
-  position: sticky;
+/* Style of the main-content */
+.main-content {
+  width: 1200px;
+  height: 200%;
+  position: absolute;
+  top: 55px;
+  margin-left: 75px;
+  background: rgb(248, 248, 248);
 }
-
-.subpage a {
+/* Style of the link in the main content */
+.main-content a {
   text-decoration: none;
   font-size: 20px;
-  color: rgb(196, 196, 196);
+  color: rgb(0, 0, 0);
   letter-spacing: 1px;
   box-sizing: border-box;
   display: inline-block;
@@ -283,9 +279,113 @@ form.search::after {
   padding: 16px 24px;
 }
 
-.subpage a:hover {
+.main-content a:hover {
   background: rgb(90, 90, 90);
 }
+/* Position of the blog link */
+.blog {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+}
+/* Position of the paint link */
+.paint {
+  position: absolute;
+  top: 0px;
+  left: 150px;
+}
+.dropdown {
+  width: 200px;
+}
+/* Style of the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgb(226, 231, 235);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.185);
+  z-index: 1;
+}
+/* Style of the link in the dropdown content */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Style of the dropdown button (Stock photos) */
+.dropbtn {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  padding: 16px 24px;
+  background: rgb(248, 248, 248);
+  outline: none;
+  border: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Style of the black boxes */
+.photos {
+  width: 290px;
+  height: 300px;
+  background: rgb(54, 52, 52);
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+/* Style of the info down the first black box */
+.info {
+  position: absolute;
+  margin: 0px;
+  margin-top: -100px;
+  width: 300px;
+  height: auto;
+  float: center;
+}
+
+.lake {
+  display: block;
+}
+
+/* .btns {
+  background: white;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  outline: none;
+}
+
+.btn-active {
+  padding: 30px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  outline: none;
+  background: white;
+} */
+
+/* .image-lake {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  z-index: -1;
+} */
 
 /* .image {
   position: relative;
@@ -303,7 +403,7 @@ form.search::after {
   font-size: 20px;
 } */
 
-.column {
+/* .column {
   float: left;
   width: 33.33%;
   padding: 5px;
@@ -313,4 +413,4 @@ form.search::after {
   content: "";
   clear: both;
   display: table;
-}
+} */
