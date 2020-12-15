@@ -9,27 +9,35 @@
     <link rel="stylesheet" href="/fontawesome-free-5.15.1-web/css/all.css" />
   </head>
   <body>
+    <!-- The very top header -->
     <div id="main">
       <div class="header">
         <h1>The Mall of Youth</h1>
+        <!-- The title -->
       </div>
-
+      <!-- The search bar -->
       <form class="search" action="action_page.php">
         <input type="text" placeholder="Search" name="search" />
         <button type="submit"><i class="fa fa-search"></i></button>
       </form>
 
+      <!-- The Sign in button -->
       <a href="login.html" class="sign-in">
         <button class="sign-in-btn"><p class="sign-in-text">SIGN IN</p></button>
       </a>
     </div>
+    <!-- The end of the very top header -->
 
+    <!-- Start of the hided side menu -->
     <div id="mySide-menu" class="side-menu">
       <a href="#"><h3 id="mall">The Mall of Youth</h3></a>
+      <!-- The header of the side menu -->
       <ul>
         <li>
+          <!-- Click the menu icon in the side menu and the side menu will close -->
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
             <i id="menu" class="fas fa-bars"></i>
+            <!--The menu icon-->
           </a>
         </li>
 
@@ -37,23 +45,64 @@
           <a class="homebtn" href="#"
             ><i id="home-in" class="fas fa-home"></i>home</a
           >
+          <!--The home button-->
         </li>
       </ul>
     </div>
+    <!-- End of the hided side menu -->
 
-    <div class="shop">
-      <i id="menu" class="fas fa-bars" onclick="openNav()"></i>
-      <i id="home" class="fas fa-home"><p class="t-home">home</p></i>
+    <!-- The visible menu at the side -->
+    <div class="shop" id="myShop">
+      <button class="btns">
+        <i id="menu" class="fas fa-bars" onclick="openNav()"></i>
+      </button>
+      <!--The menu icon that opens the hided side menu-->
+      <button class="btn-active">
+        <i id="home" class="fas fa-home"><p class="t-home">home</p></i>
+      </button>
+      <!--The home icon-->
     </div>
+    <!-- The end of the visible menu at the side -->
 
+    <!-- Start of the Main content -->
     <div id="myMain-content" class="main-content">
-      <div class="subpage">
-        <a href="#">Stock photos</a>
-        <a href="#">Art paints</a>
-        <a href="#">Blogs</a>
+      <div class="dropdown">
+        <button class="dropbtn">Stock photos</button>
+        <div class="dropdown-content">
+          <a href="#">Nature</a>
+          <a href="#">People</a>
+          <a href="#">Building</a>
+        </div>
+        <!--a dropdown menu-->
       </div>
+      <a href="#" class="paint">Art paints</a>
+      <!--Link to paint-->
+      <a href="#" class="blog">Blogs</a>
+      <!--Link to blog-->
 
-      <div class="row">
+      <!--The photos in the main content-->
+      <div class="photos"></div>
+      <div class="info">
+        <p>Published by Siyuan</p>
+        <p>Price: 100$</p>
+        <p>Date of publish: 15th December 2020</p>
+      </div>
+      <div class="photos"></div>
+      <div class="photos"></div>
+      <div class="photos"></div>
+      <div class="photos"></div>
+      <div class="photos"></div>
+      <div class="photos"></div>
+      <div class="photos"></div>
+      <div class="photos"></div>
+      <div class="photos"></div>
+      <div class="photos"></div>
+      <div class="photos"></div>
+    </div>
+  </body>
+</html>
+
+<!-- <div class="row">
         <div class="column">
           <img
             src="/Image/WhatsApp Image 2020-12-10 at 7.15.07 PM.jpeg"
@@ -66,18 +115,15 @@
           <div class="column">
             <img src="/Image/big.jpeg" alt="nature" style="width: 100%" />
           </div>
-        </div>
-      </div>
-      <!-- <div class="image">
-        <img src="/Image/Lake.jpeg" class="theImage" />
-      </div>
-      <p class="paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat totam
-        delectus quaerat quod excepturi ut illum blanditiis, voluptates dicta
-        aperiam impedit nostrum, magnam harum assumenda. Beatae, quis illo sed
-        aliquam perspiciatis non unde rerum eius repellat sapiente cupiditate?
-        Repellat, eum!
-      </p> -->
-    </div>
-  </body>
-</html>
+        </div> -->
+
+<!-- <div class="image">
+                <img src="/Image/Lake.jpeg" class="theImage" />
+              </div>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat totam
+                delectus quaerat quod excepturi ut illum blanditiis, voluptates dicta
+                aperiam impedit nostrum, magnam harum assumenda. Beatae, quis illo sed
+                aliquam perspiciatis non unde rerum eius repellat sapiente cupiditate?
+                Repellat, eum!
+              </p> -->

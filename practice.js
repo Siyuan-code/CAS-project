@@ -116,11 +116,97 @@
 //   console.log("Hello Hello");
 // }
 
-const num1 = 4;
-const num2 = 6;
+// const num1 = 8;
+// const num2 = 10;
+// const result = num1 >= num2;
 
-if (num1 > num2) {
-  console.log("first number is bigger than second");
-} else {
-  console.log("second number is bigger than the first");
-}
+// const value = num1 != num2;
+// const value = num1 !== num2;
+// console.log(value);
+// console.log(value2);
+
+// const value = false;
+// if (!value) {
+//   console.log("value is true");
+// }
+// if (num1 > num2) {
+//   console.log("first number is bigger than second");
+// } else if (result) {
+//   console.log("first number equal to the second");
+// } else {
+//   console.log("second number is bigger than the first");
+// }
+
+// const name = "peter";
+// const age = 24;
+
+// if (name === "bob" && age === 24) {
+//   console.log("Hello there user");
+// } else {
+//   console.log("wrong values");
+// }
+
+// const dice = 1;
+
+// if (dice === 1) {
+//   console.log("you got one");
+// }
+// else if (dice === 2) {
+//   console.log("you got two");
+// }
+// else ({
+//   console.log("you did not roll the dice");
+// }
+
+// if (dice === 1) {
+//     console.log("you got one");
+// }
+// if (dice === 2) {
+//     console.log("you got two");
+// }
+// if (dice < 1 || dice > 6) {
+//     console.log("you did not roll the dice");
+// }
+
+// const dice = 2;
+// switch (dice) {
+//   case 1:
+//     console.log("You got one");
+//     break;
+//   case 2:
+//     console.log("You got two");
+//     break;
+//   case 3:
+//     console.log("You got three");
+//     break;
+//   default:
+//     console.log("You did not roll the dice");
+// }
+
+// let amount = 10;
+
+// while (amount > 0) {
+//   console.log("I have " + amount + " dollars");
+//   amount--;
+// }
+
+// let money = 0;
+// do {
+//   console.log("You have " + money + " dollars");
+//   money++;
+// } while (money < 10);
+
+// let i;
+// for (i = 0; i < 10; i++) {
+//   console.log("and the number is : " + i);
+// }
+
+// for (let number = 11; number >= 0; number--) {
+//   console.log("and the number is : " + number);
+// }
+
+let text = "Siyuan";
+let result = text.length;
+console.log(result);
+console.log(text.length);
+console.log(text.toLocaleUpperCase());
