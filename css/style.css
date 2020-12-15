@@ -9,7 +9,7 @@
 
 /* Style of the div of title of the login page */
 .title-top {
-  width: 100%;
+  width: 80%;
   height: 60px;
   background: lightblue;
 }
@@ -367,7 +367,6 @@ form.search::after {
   opacity: 0.9;
   outline: none;
 }
-
 .btn-active {
   padding: 30px 20px;
   margin: 8px 0;
@@ -396,7 +395,6 @@ form.search::after {
   max-width: 100%;
   max-height: 100vh;
 }
-
 .paragraph {
   padding: 0px 24px;
   text-align: justify;
@@ -408,7 +406,6 @@ form.search::after {
   width: 33.33%;
   padding: 5px;
 }
-
 .row::after {
   content: "";
   clear: both;
