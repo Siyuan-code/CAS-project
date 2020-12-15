@@ -85,7 +85,7 @@ button:hover {
   position: absolute;
   left: 100px;
   margin-top: 10px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .container {
