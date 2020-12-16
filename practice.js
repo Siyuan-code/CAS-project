@@ -205,8 +205,184 @@
 //   console.log("and the number is : " + number);
 // }
 
-let text = "Siyuan";
-let result = text.length;
-console.log(result);
-console.log(text.length);
-console.log(text.toLocaleUpperCase());
+// let text = "Siyuan";
+// let result = text.length;
+// console.log(result);
+// console.log(text.length);
+// console.log(text.toLocaleUpperCase());
+// console.log(text.charAt(0));
+// console.log(text.charAt(text.length - 1));
+// console.log(text.indexOf("S"));
+// console.log(text);
+// console.log(text.trim());
+// console.log(text.startsWith(" Peter"));
+// console.log(text.trim().toLowerCase().startsWith("peter"));
+// console.log(text.includes("yuan"));
+// console.log(text.slice("0,2"));
+// console.log(text.slice("-1"));
+
+// const name = "john";
+// const age = 26;
+// const sentence = "Hey it's " + name + " and he is " + age + " years old";
+// const value = `Hey it's ${name} and he is ${age} years old. And here is some simple math ${
+//   4 + 4
+// }`;
+// console.log(value);
+// console.log(sentence);
+
+// let names = ["john", "bobo", "barry", "alga", "ben"];
+
+// console.log(names.length);
+// console.log(names.length - 1);
+// console.log(names[4]);
+
+// const lastNames = ["pepper", "onion", "banana"];
+// const allNames = names.concat(LastNames);
+// console.log(allNames);
+// console.log(allNames.reverse());
+
+// allNames.unshift("susy");
+// allNames.unshift("anna");
+// console.log(allNames);
+
+// allNames.shift();
+// allNames.shift();
+// allNames.shift();
+// allNames.shift();
+
+// allNames.push("susy");
+// console.log(allNames);
+
+// allNames.pop();
+// allNames.pop();
+// allNames.pop();
+// allNames.pop();
+// console.log(allNames);
+
+// const specificNames = allNames.splice(2,1);
+// console.log(allNames);
+
+// const names = ["anna", "susy", "bob"];
+// const lastName = "shakeandbake";
+// let newArray = [];
+
+// for (i = 0; i < names.length; i++) {
+//   console.log(i);
+//   console.log(names[i]);
+//   newArray.push(names[i]);
+//   const fullName = newArray.push(`${names[i]} ${lastName}`);
+//   newArray.push(fullName);
+// }
+
+// console.log(names);
+// console.log(newArray);
+// const gas = [20, 40, 100, 30];
+// const food = [10, 40, 50];
+
+// function calculateTotal(arr) {
+//   let total = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     // console.log(arr[i]);
+//     total += arr[i];
+//   }
+//   if(total>100){
+//       console.log("You spend so much");
+//       return total;
+//   }
+//   console.log("You are good");
+//   // console.log(total);
+//   return total;
+// }
+
+// const gasTotal = calculateTotal(gas);
+// const foodTotal = calculateTotal(food);
+// const randomTotal = calculateTotal((200, 4000, 500, 1));
+
+// console.log((gas : gasTotal);
+
+// const number = 1;
+// const number2 = number;
+// number2 = 7;
+// console.log(`the first value is ${number}`);
+// console.log(`the second value is ${number2}`);
+
+// let person = { name: `bab` };
+// // let person2 = person;
+// let person2 = { ...person };
+// person.name = "susy";
+// console.log(`the name of the first person is ${person.name}`);
+// console.log(`the name of the first person is ${person2.name}`);
+
+// let number = 20 + null;
+// console.log(number);
+// let number2 = 20 + undefined;
+// console.log(number2);
+
+// const bool1 = true;
+// const bool1 = 2 > 1;
+
+// const text = "john";
+// if (text){
+//     console.log("Hey the value is truthy");
+// }else{
+//     console.log("Hey the value is false");
+// }
+
+// if(boo1){
+//     console.log("Hey it works");
+// }
+// if(bool2){
+//     console.log("It works");
+// }
+
+// let text = "some text";
+// console.log(typeof text);
+
+// let number = 3;
+// let number = 2 + 5;
+
+// const value = 2 > 1;
+
+// value ? console.log("value is true") : console.log("value is false");
+
+// if (value) {
+//   console.log("value is true");
+// } else {
+//   console.log("value is false");
+// }
+
+// let name = "bobo";
+// name = "peter";
+// // const name = "john";
+
+// function calculate() {
+//   console.log(name);
+//   name = "orange";
+//   function inner(){
+//     name = `inner name value`;
+//     console.log(`this is from inner function ${name}`);
+//   }
+// }
+// calculate();
+
+// if (true) {
+//   console.log(name);
+//   name = "pants";
+// }
+
+// console.log(`my name is ${name} and I'm awsome`);
+
+let name = "bobo";
+// name = "peter";
+// const name = "john";
+
+function calculate() {
+  const name = `john`;
+}
+calculate();
+
+if (true) {
+  const name = `john`;
+}
+
+console.log(`my name is ${name} and I'm awsome`);
