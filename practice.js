@@ -378,6 +378,9 @@ let name = "bobo";
 
 function calculate() {
   const name = `john`;
+  const age = 25;
+  becomesGlobal = "global variable";
+//   return name;
 }
 calculate();
 
