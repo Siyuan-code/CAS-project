@@ -168,9 +168,9 @@ form.search::after {
   font-size: 20px;
   color: rgb(109, 107, 107);
   position: absolute;
-  top: 20px;
+  top: 10px;
   left: 30px;
-  overflow-x: hidden;
+  overflow: hidden;
   cursor: pointer;
 }
 
@@ -204,10 +204,26 @@ form.search::after {
 }
 /* Style of the side bar visible */
 .shop {
-  height: max-content;
   width: 75px;
+  height: max-content;
   position: fixed;
 }
+
+#setting {
+  position: absolute;
+  top: 550px;
+  left: -15px;
+  padding: 20px 25px;
+  background: white;
+  color: rgb(39, 38, 38);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#setting:hover {
+  background: rgb(199, 199, 199);
+}
+
 /* Style the hided side menu */
 .side-menu {
   height: 100%;
@@ -267,14 +283,21 @@ form.search::after {
   margin-left: 75px;
   background: rgb(248, 248, 248);
 }
-/* The style of the whole dropdown menu */
-.dropdown1 {
-  display: block;
-  overflow: hidden;
-  background: lightslategray;
-  width: 180px;
+
+.subpages {
+  background: rgb(51, 54, 58);
+  width: 1200px;
+  height: 60px;
 }
 
+/* Style of the dropdown div of *stock photos* */
+.dropdown1 {
+  display: block;
+  background: lightslategray;
+  position: absolute;
+  top: 0px;
+  left: 65px;
+}
 /* Style of the dropdown content of *Stock photo* */
 .dropdown-content1 {
   display: none;
@@ -316,13 +339,13 @@ form.search::after {
 .dropdown1:hover .dropdown-content1 {
   display: block;
 }
-
+/* Style of the art paint div */
 .dropdown2 {
   display: block;
   background: lightslategray;
   position: absolute;
   top: 0px;
-  left: 155px;
+  left: 220px;
 }
 
 .dropdown-content2 {
@@ -361,17 +384,56 @@ form.search::after {
   background: rgba(0, 0, 0, 0.6);
 }
 
+.dropdown2:hover .dropbtn {
+  background: rgb(158, 151, 151);
+}
+
 .dropdown2:hover .dropdown-content2 {
   display: block;
 }
-
-.dropdown3 {
+/* Style of the blog div */
+.dropdown {
   display: block;
-  overflow: hidden;
   position: absolute;
-  top: 0px;
-  left: 283px;
   background: lightslategray;
+  top: 0;
+  left: 0;
+}
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: inherit;
+  margin: 0;
+  height: 3.5em;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* Style of the black boxes  */
@@ -381,7 +443,7 @@ form.search::after {
   background: rgb(54, 52, 52);
   display: inline-block;
   margin-left: 5px;
-  margin-top: 10px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 /* Style of the info down the first black box */
@@ -397,58 +459,3 @@ form.search::after {
 .lake {
   display: block;
 }
-
-/* .btns {
-  background: white;
-  padding: 20px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-  outline: none;
-}
-.btn-active {
-  padding: 30px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-  outline: none;
-  background: white;
-} */
-
-/* .image-lake {
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 100px;
-  z-index: -1;
-} */
-
-/* .image {
-  position: relative;
-  z-index: 1;
-  top: 0px;
-}
-.image .theImage {
-  max-width: 100%;
-  max-height: 100vh;
-}
-.paragraph {
-  padding: 0px 24px;
-  text-align: justify;
-  font-size: 20px;
-} */
-
-/* .column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-} */
