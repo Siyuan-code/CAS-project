@@ -1,17 +1,14 @@
 function openNav() {
-  document.getElementById("mySide-menu").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "150px";
-  document.getElementById("myMain-content").style.backgroundColor =
-    "rgba(0,0,0,0.4)";
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
 }
 
 function closeNav() {
-  document.getElementById("mySide-menu").style.width = "0";
+  document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
-  document.getElementById("myMain-content").style.backgroundColor = "white";
 }
 
-// var btnContainer = document.getElementById("myShop");
+// var btnContainer = document.ge4¥tElementById("myShop");
 // var btns = btnContainer.getElementsByClassName("btns");
 // for (var i = 0; i < btns.length; i++) {
 //   btns[i].addEventListener("click", function () {

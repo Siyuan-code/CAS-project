@@ -225,51 +225,69 @@ form.search::after {
 }
 
 /* Style the hided side menu */
-.side-menu {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
+.sidebar {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
   top: 0;
   left: 0;
-  background-color: lightgray;
+  background-color: #111;
   overflow-x: hidden;
-  padding-top: 60px;
-  transition: all 0.2s ease;
-  list-style: none;
-  text-decoration: none;
+  padding-top: 60px; 
+  transition: 0.5s; 
 }
-/* Style the title (The mall of Youth) in the hided side menu */
-#mall {
-  position: absolute;
-  top: 20px;
-  left: 60px;
-  color: black;
-}
-/* Style the links in the hided side menu */
-.side-menu ul a {
+
+
+.sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: rgb(0, 0, 0);
+  color: #818181;
   display: block;
   transition: 0.3s;
-  box-sizing: border-box;
 }
-/* Style the icon of the link in the hided side menu */
-.side-menu ul a i {
-  margin-right: 16px;
+
+
+.sidebar a:hover {
+  color: #f1f1f1;
 }
-/* Hover home button in the hided side menu */
-.homebtn:hover {
-  background: rgb(245, 239, 239);
-}
-/* Style the menu icon in the hided side menu */
-.closebtn {
+
+
+.sidebar .closebtn {
   position: absolute;
   top: 0;
+  right: 25px;
   font-size: 36px;
+  margin-left: 50px;
 }
+
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+
+#main {
+  transition: margin-left .5s; 
+  padding: 20px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
 /* Style the menu icon in the visible side menu */
 .open {
   cursor: pointer;
@@ -459,3 +477,4 @@ form.search::after {
 .lake {
   display: block;
 }
+
