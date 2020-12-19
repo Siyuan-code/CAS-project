@@ -226,18 +226,14 @@ form.search::after {
 
 /* Style the hided side menu */
 .sidebar {
-  height: 100%; 
-  width: 0; 
-  position: fixed; 
-  z-index: 1; 
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-<<<<<<< Updated upstream
-  padding-top: 60px; 
-  transition: 0.5s; 
-=======
   padding-top: 60px;
   transition: all 0.2s ease;
   list-style: none;
@@ -249,9 +245,7 @@ form.search::after {
   top: 30px;
   left: 60px;
   color: black;
->>>>>>> Stashed changes
 }
-
 
 .sidebar a {
   padding: 8px 8px 8px 32px;
@@ -262,11 +256,9 @@ form.search::after {
   transition: 0.3s;
 }
 
-
 .sidebar a:hover {
   color: #f1f1f1;
 }
-
 
 .sidebar .closebtn {
   position: absolute;
@@ -275,7 +267,6 @@ form.search::after {
   font-size: 36px;
   margin-left: 50px;
 }
-
 
 .openbtn {
   font-size: 20px;
@@ -290,16 +281,18 @@ form.search::after {
   background-color: #444;
 }
 
-
 #main {
-  transition: margin-left .5s; 
+  transition: margin-left 0.5s;
   padding: 20px;
 }
 
-
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
 }
 
 /* Style the menu icon in the visible side menu */
@@ -491,4 +484,3 @@ form.search::after {
 .lake {
   display: block;
 }
-
