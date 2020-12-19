@@ -1,4 +1,5 @@
 function openNav() {
+<<<<<<< Updated upstream
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
 }
@@ -6,6 +7,18 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
+=======
+  document.getElementById("mySide-menu").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "75px";
+  document.getElementById("myMain-content").style.backgroundColor =
+    "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySide-menu").style.width = "0";
+  document.getElementById("main").style.marginLeft = "5";
+  document.getElementById("myMain-content").style.backgroundColor = "white";
+>>>>>>> Stashed changes
 }
 
 // var btnContainer = document.ge4¥tElementById("myShop");

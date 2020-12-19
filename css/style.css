@@ -168,7 +168,7 @@ form.search::after {
   font-size: 20px;
   color: rgb(109, 107, 107);
   position: absolute;
-  top: 10px;
+  top: 30px;
   left: 30px;
   overflow: hidden;
   cursor: pointer;
@@ -182,7 +182,7 @@ form.search::after {
   font-size: 20px;
   color: rgb(109, 107, 107);
   position: absolute;
-  top: 67px;
+  top: 70px;
   left: 1px;
   padding: 20px 25px;
   overflow-x: hidden;
@@ -234,8 +234,22 @@ form.search::after {
   left: 0;
   background-color: #111;
   overflow-x: hidden;
+<<<<<<< Updated upstream
   padding-top: 60px; 
   transition: 0.5s; 
+=======
+  padding-top: 60px;
+  transition: all 0.2s ease;
+  list-style: none;
+  text-decoration: none;
+}
+/* Style the title (The mall of Youth) in the hided side menu */
+#mall {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  color: black;
+>>>>>>> Stashed changes
 }
 
 
