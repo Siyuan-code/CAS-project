@@ -29,24 +29,32 @@
     <!-- The end of the very top header -->
 
     <!-- Start of the hided side menu -->
-    <button class="openbtn" onclick="openNav()">&#9776;</button>
-    <div id="mySidebar" class="sidebar">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
+    <div id="mySide-menu" class="side-menu">
+      <a href="#"><h3 id="mall">The Mall of Youth</h3></a>
+      <!-- The header of the side menu -->
+      <ul>
+        <li>
+          <!-- Click the menu icon in the side menu and the side menu will close -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <i id="menu" class="fas fa-bars"></i>
+            <!--The menu icon-->
+          </a>
+        </li>
+
+        <li>
+          <a class="homebtn" href="#"
+            ><i id="home-in" class="fas fa-home"></i>home</a
+          >
+          <!--The home button-->
+        </li>
+      </ul>
     </div>
-    </div>
-    
-   
-    
     <!-- End of the hided side menu -->
 
     <!-- The visible menu at the side -->
     <div class="shop" id="myShop">
       <button>
-        <i id="menu" class="fas fa-bars" class="open" onclick="openNav()"></i>
+        <i id="menu" class="fas fa-bars" onclick="openNav()"></i>
       </button>
       <!--The menu icon that opens the hided side menu-->
       <button>
