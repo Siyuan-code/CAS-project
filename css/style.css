@@ -281,7 +281,7 @@ form.search::after {
   position: absolute;
   top: 55px;
   margin-left: 75px;
-  background: rgb(248, 248, 248);
+  background: rgb(0, 0, 0);
 }
 
 .subpages {
@@ -354,6 +354,7 @@ form.search::after {
   background: rgb(226, 231, 235);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.185);
+  z-index: 2;
 }
 
 .dropdown-content2 a {
@@ -417,6 +418,7 @@ form.search::after {
   background: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
 }
 
 .dropdown-content a {
@@ -436,26 +438,39 @@ form.search::after {
   display: block;
 }
 
-/* Style of the black boxes  */
-.photos {
-  width: 290px;
-  height: 300px;
-  background: rgb(54, 52, 52);
-  display: inline-block;
-  margin-left: 5px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-/* Style of the info down the first black box */
-.info {
+.intro {
   position: absolute;
-  margin: 0px;
-  margin-top: -100px;
-  width: 300px;
-  height: auto;
-  float: center;
+  top: 150px;
+  left: 20px;
+  width: 600px;
+  font-size: 38px;
+  color: rgb(87, 205, 209);
+  text-shadow: 4px 2px rgb(0, 0, 0);
 }
 
-.lake {
-  display: block;
+.paragraph {
+  font-size: 19px;
+  text-shadow: none;
+  color: rgb(87, 205, 209);
+  text-shadow: 1px 1px black;
+}
+
+.logo {
+  position: absolute;
+  top: 150px;
+  left: 660px;
+  width: 500px;
+  height: 300px;
+  border: 1px solid red;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.first {
+  position: absolute;
+  top: 60px;
+  width: 1200px;
+  height: 500px;
+  /* background: url(/Image/Lake.jpeg); */
 }

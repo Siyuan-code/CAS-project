@@ -372,20 +372,29 @@
 
 // console.log(`my name is ${name} and I'm awsome`);
 
-let name = "bobo";
-// name = "peter";
-// const name = "john";
+// let name = "bobo";
+// // name = "peter";
+// // const name = "john";
 
-function calculate() {
-  const name = `john`;
-  const age = 25;
-  becomesGlobal = "global variable";
-//   return name;
+// function calculate() {
+//   const name = `john`;
+//   const age = 25;
+//   becomesGlobal = "global variable";
+// //   return name;
+// }
+// calculate();
+
+// if (true) {
+//   const name = `john`;
+// }
+
+// console.log(`my name is ${name} and I'm awsome`);
+
+const globalNumber = 5;
+
+function add(num1, num2) {
+  const result = num1 + num2 + globalNumber;
+  return result;
 }
-calculate();
 
-if (true) {
-  const name = `john`;
-}
-
-console.log(`my name is ${name} and I'm awsome`);
+console.log(add(3, 4));
