@@ -281,7 +281,7 @@ form.search::after {
   position: absolute;
   top: 55px;
   margin-left: 75px;
-  background: rgb(0, 0, 0);
+  background: white;
 }
 
 .subpages {
@@ -446,6 +446,7 @@ form.search::after {
   font-size: 38px;
   color: rgb(87, 205, 209);
   text-shadow: 4px 2px rgb(0, 0, 0);
+  background-color: white;
 }
 
 .paragraph {
@@ -462,7 +463,7 @@ form.search::after {
   width: 500px;
   height: 300px;
   border: 1px solid red;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 30px;
 }
@@ -472,5 +473,5 @@ form.search::after {
   top: 60px;
   width: 1200px;
   height: 500px;
-  /* background: url(/Image/Lake.jpeg); */
+  background-color: white;
 }
