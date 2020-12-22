@@ -212,8 +212,8 @@ form.search::after {
 #setting {
   position: absolute;
   top: 550px;
-  left: -15px;
-  padding: 20px 25px;
+  left: -10px;
+  padding: 20px 20px;
   background: white;
   color: rgb(39, 38, 38);
   font-size: 17px;
@@ -277,7 +277,7 @@ form.search::after {
 /* Style of the main-content */
 .main-content {
   width: 1200px;
-  height: 200%;
+  height: 2545px;
   position: absolute;
   top: 55px;
   margin-left: 75px;
@@ -440,29 +440,29 @@ form.search::after {
 
 .intro {
   position: absolute;
-  top: 150px;
+  top: 80px;
   left: 20px;
   width: 600px;
   font-size: 38px;
-  color: rgb(87, 205, 209);
+  color: rgb(135, 177, 231);
   text-shadow: 4px 2px rgb(0, 0, 0);
-  background-color: white;
 }
 
 .paragraph {
   font-size: 19px;
   text-shadow: none;
-  color: rgb(87, 205, 209);
+  color: rgb(131, 239, 243);
   text-shadow: 1px 1px black;
 }
 
 .logo {
   position: absolute;
-  top: 150px;
+  top: 80px;
   left: 660px;
   width: 500px;
   height: 300px;
   border: 1px solid red;
+  border-radius: 500px;
   color: black;
   text-align: center;
   font-size: 30px;
@@ -473,5 +473,152 @@ form.search::after {
   top: 60px;
   width: 1200px;
   height: 500px;
-  background-color: white;
+  background: rgb(73, 47, 239); /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    rgba(73, 47, 239, 1) 25%,
+    rgba(41, 137, 216, 1) 39%,
+    rgba(29, 186, 175, 1) 64%,
+    rgba(121, 224, 169, 1) 92%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(73, 47, 239, 1) 25%,
+    rgba(41, 137, 216, 1) 39%,
+    rgba(29, 186, 175, 1) 64%,
+    rgba(121, 224, 169, 1) 92%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(73, 47, 239, 1) 25%,
+    rgba(41, 137, 216, 1) 39%,
+    rgba(29, 186, 175, 1) 64%,
+    rgba(121, 224, 169, 1) 92%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#492fef', endColorstr='#79e0a9',GradientType=1 ); /* IE6-9 */
+}
+
+.second {
+  position: absolute;
+  top: 560px;
+  width: 1200px;
+  height: 500px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+21,fdffff+26,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100 */
+  background: rgb(225, 255, 255); /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    rgba(225, 255, 255, 1) 0%,
+    rgba(225, 255, 255, 1) 7%,
+    rgba(225, 255, 255, 1) 21%,
+    rgba(253, 255, 255, 1) 26%,
+    rgba(230, 248, 253, 1) 30%,
+    rgba(200, 238, 251, 1) 54%,
+    rgba(190, 228, 248, 1) 75%,
+    rgba(177, 216, 245, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(225, 255, 255, 1) 0%,
+    rgba(225, 255, 255, 1) 7%,
+    rgba(225, 255, 255, 1) 21%,
+    rgba(253, 255, 255, 1) 26%,
+    rgba(230, 248, 253, 1) 30%,
+    rgba(200, 238, 251, 1) 54%,
+    rgba(190, 228, 248, 1) 75%,
+    rgba(177, 216, 245, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(225, 255, 255, 1) 0%,
+    rgba(225, 255, 255, 1) 7%,
+    rgba(225, 255, 255, 1) 21%,
+    rgba(253, 255, 255, 1) 26%,
+    rgba(230, 248, 253, 1) 30%,
+    rgba(200, 238, 251, 1) 54%,
+    rgba(190, 228, 248, 1) 75%,
+    rgba(177, 216, 245, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=1 ); /* IE6-9 */
+}
+
+.video {
+  margin-left: 200px;
+  width: 854px;
+  height: 480px;
+  border: 1px solid rgb(5, 4, 4);
+}
+
+.blog {
+  position: absolute;
+  top: 1045px;
+  width: 1200px;
+  height: 500px;
+  background: url(/Image/Rock.jpeg);
+  text-align: center;
+}
+
+.intro-blog {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 1100px;
+  height: 400px;
+  background: white;
+}
+
+.stock-photos {
+  position: absolute;
+  top: 1545px;
+  width: 1200px;
+  height: 500px;
+  background: url(/Image/Clouds.jpeg);
+  text-align: center;
+}
+
+.intro-photos {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 1100px;
+  height: 400px;
+  background: white;
+}
+
+.art-paints {
+  position: absolute;
+  top: 2045px;
+  width: 1200px;
+  height: 500px;
+  background: url(/Image/Sky.jpeg);
+  text-align: center;
+}
+
+.intro-art {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 1100px;
+  height: 400px;
+  background: white;
+}
+
+.end-page {
+  position: absolute;
+  top: 2545px;
+  width: 1200px;
+  height: 300px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(/Image/Basketball.jpeg);
+}
+
+.end-word {
+  position: relative;
+  top: 100px;
+  left: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 5px;
 }
