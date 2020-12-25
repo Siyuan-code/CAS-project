@@ -91,10 +91,10 @@ button:hover {
   width: 1200px;
   border-bottom: 1px solid rgba(201, 200, 200, 0.699);
   background: white;
-  margin-left: 75px;
+  margin-left: 85px;
   overflow-x: hidden;
   position: fixed;
-  z-index: 1;
+  z-index: 99;
 }
 /* Style the header of the homepage */
 .header {
@@ -230,7 +230,7 @@ form.search::after {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 10000;
   top: 0;
   left: 0;
   background-color: lightgray;
@@ -281,7 +281,7 @@ form.search::after {
   height: 2545px;
   position: absolute;
   top: 55px;
-  margin-left: 75px;
+  margin-left: 85px;
   background: white;
 }
 
@@ -445,15 +445,17 @@ form.search::after {
   left: 20px;
   width: 600px;
   font-size: 38px;
-  color: rgb(38, 197, 149);
-  text-shadow: 4px 2px rgba(50, 137, 187, 0.486);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
 }
 
 .paragraph {
   font-size: 19px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-shadow: none;
-  color: black;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: rgb(0, 0, 0);
   text-shadow: 1px 1px rgba(0, 0, 0, 0.185);
 }
 
@@ -463,74 +465,56 @@ form.search::after {
   left: 660px;
   width: 500px;
   height: 300px;
-  border: 1px solid red;
+  border: 1px solid white;
   border-radius: 500px;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 30px;
+  z-index: 3;
 }
 
 .first {
   position: absolute;
   top: 60px;
   width: 1200px;
-  height: 500px;
-  background: rgb(240, 238, 238);
+  height: 600px;
+  background: url(/Image/Basketball4.png);
 }
 
 .second {
   position: absolute;
-  top: 560px;
+  top: 660px;
   width: 1200px;
   height: 500px;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+21,fdffff+26,e6f8fd+30,c8eefb+54,bee4f8+75,b1d8f5+100 */
-  background: rgb(225, 255, 255); /* Old browsers */
-  background: -moz-linear-gradient(
-    left,
-    rgba(225, 255, 255, 1) 0%,
-    rgba(225, 255, 255, 1) 7%,
-    rgba(225, 255, 255, 1) 21%,
-    rgba(253, 255, 255, 1) 26%,
-    rgba(230, 248, 253, 1) 30%,
-    rgba(200, 238, 251, 1) 54%,
-    rgba(190, 228, 248, 1) 75%,
-    rgba(177, 216, 245, 1) 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    left,
-    rgba(225, 255, 255, 1) 0%,
-    rgba(225, 255, 255, 1) 7%,
-    rgba(225, 255, 255, 1) 21%,
-    rgba(253, 255, 255, 1) 26%,
-    rgba(230, 248, 253, 1) 30%,
-    rgba(200, 238, 251, 1) 54%,
-    rgba(190, 228, 248, 1) 75%,
-    rgba(177, 216, 245, 1) 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to right,
-    rgba(225, 255, 255, 1) 0%,
-    rgba(225, 255, 255, 1) 7%,
-    rgba(225, 255, 255, 1) 21%,
-    rgba(253, 255, 255, 1) 26%,
-    rgba(230, 248, 253, 1) 30%,
-    rgba(200, 238, 251, 1) 54%,
-    rgba(190, 228, 248, 1) 75%,
-    rgba(177, 216, 245, 1) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=1 ); /* IE6-9 */
+  background: white;
 }
 
 .video {
-  margin-left: 200px;
+  margin-top: 10px;
+  margin-left: 0px;
   width: 854px;
   height: 480px;
   border: 1px solid rgb(5, 4, 4);
 }
 
+.text {
+  position: relative;
+  top: -480px;
+  width: 300px;
+  height: 480px;
+  margin-left: 870px;
+  background: rgb(236, 234, 234);
+}
+.Video-Descript {
+  text-align: center;
+  position: relative;
+  top: 10px;
+  font-size: 20px;
+}
+
 .blog {
   position: absolute;
-  top: 1045px;
+  top: 1160px;
   width: 1200px;
   height: 500px;
   background: url(/Image/Rock.jpeg);
@@ -543,12 +527,22 @@ form.search::after {
   left: 50px;
   width: 1100px;
   height: 400px;
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.blog1 {
+  position: relative;
+  top: -300px;
+  left: 50px;
+  width: 1100px;
+  height: 400px;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .stock-photos {
   position: absolute;
-  top: 1545px;
+  top: 1660px;
   width: 1200px;
   height: 500px;
   background: url(/Image/Clouds.jpeg);
@@ -561,12 +555,21 @@ form.search::after {
   left: 50px;
   width: 1100px;
   height: 400px;
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.photos1 {
+  position: relative;
+  top: -300px;
+  width: 1100px;
+  height: 400px;
+  margin-left: 100px;
+  text-align: left;
 }
 
 .art-paints {
   position: absolute;
-  top: 2045px;
+  top: 2160px;
   width: 1200px;
   height: 500px;
   background: url(/Image/Sky.jpeg);
@@ -579,26 +582,46 @@ form.search::after {
   left: 50px;
   width: 1100px;
   height: 400px;
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.art1 {
+  position: relative;
+  top: -300px;
+  left: 50px;
+  width: 1100px;
+  height: 400px;
+  text-align: left;
+  margin-left: 10px;
 }
 
 .end-page {
   position: absolute;
-  top: 2545px;
+  top: 2660px;
   width: 1200px;
   height: 300px;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
-    url(/Image/Basketball.jpeg);
+  background: rgb(0, 0, 0);
 }
 
-.end-word {
-  position: relative;
-  top: 100px;
-  left: 10px;
+.thead {
   font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.end-list {
+  color: white;
+  list-style: none;
+  word-spacing: 2px;
   letter-spacing: 1px;
-  padding: 5px;
+  font-size: 15px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+li {
+  margin-bottom: 20px;
 }
