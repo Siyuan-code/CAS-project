@@ -1,4 +1,3 @@
-// document.write("Hello World");
 // alert("hello people");
 // console.log("hello world");
 
@@ -390,11 +389,157 @@
 
 // console.log(`my name is ${name} and I'm awsome`);
 
-const globalNumber = 5;
+// const globalNumber = 5;
 
-function add(num1, num2) {
-  const result = num1 + num2 + globalNumber;
-  return result;
-}
+// function add(num1, num2) {
+//   const result = num1 + num2 + globalNumber;
+//   return result;
+// }
 
-console.log(add(3, 4));
+// console.log(add(3, 4));
+
+// const people = [
+//   { name: "bob", age: 20, job: "developer", id: 1, salary: 200 },
+//   { name: "peter", age: 25, job: "designer", id: 2, salary: 300 },
+//   { name: "susy", age: 30, job: "artist", id: 3, salary: 400 },
+// ];
+
+// const names = ["bob", "peter", "susy"];
+// console.log(
+//   names.find(function (name) {
+//     return name === "bob";
+//   })
+// );
+// function showPerson(person) {
+//   console.log(person.job.toUpperCase());
+// }
+
+// // people.forEach(showPerson);
+
+// people.forEach(function (item) {
+//   console.log(item.job.toUpperCase());
+// });
+
+// const ages = people.map(function (person) {
+//   return person.age + 20;
+// });
+// const newPeople = people.map(function (person) {
+//   return { firstName: person.name.toUpperCase(), oldAge: person.age + 20 };
+// });
+
+// const names = people.map(function (person) {
+//   return `<h1>${person.name}</h1>`;
+// });
+
+// console.log(names);
+
+// const youngPeople = people.filter(function (person) {
+//   return person.age <= 25;
+// });
+
+// console.log(youngPeople);
+
+// const person = people.find(function (person) {
+//   return person.id === 3;
+// });
+
+// console.log(person);
+
+// const total = people.reduce(function (acc, currItem) {
+//   console.log(`total${acc}`);
+//   console.log(`current money:${currItem.salary}`);
+//   acc += currItem.salary;
+//   return acc;
+// }, 0);
+
+// console.log(total);
+
+// const number = 4.56789;
+// const result = Math.floor(number);
+
+// const number = 4.2;
+// const result = Math.ceil(number);
+
+// const number = 2;
+// const result = Math.sqrt(number);
+
+// const result = Math.PI;
+
+// const result = Math.max(4, 5, 6, 7, 8);
+
+// const result = Math.floor(Math.random() * 10 + 1);
+
+// console.log(result);
+// document.getElementById("button").style.color = "red";
+
+// document.write("HelloWorld");
+// document.body.style.backgroundColor = "blue";
+// document.body.style.color = "yellow";
+// document.getElementById("btn").style.color = "red";
+// console.dir(document);
+
+// const h1 = document.getElementById("header1");
+// h1.style.color = "red";
+
+// const btn = document.getElementById("btn");
+// btn.style.backgroundColor = "blue";
+// btn.style.color = "red";
+// document.getElementById("btn").style.backgroundColor = "blue";
+
+// document.getElementById("btn").style.color = "Red";
+
+// const h1 = document.getElementsByTagName("h1");
+// h1[0].style.color = "red";
+// // console.log(h1.length);
+
+// const items = document.getElementsByTagName("li");
+// // items.forEach(function (item) {
+// //   console.log(item);
+// // });
+// items[2].style.color = "orange";
+// const betterItems = [...items];
+// betterItems.forEach(function (item) {
+//   //   console.log(item);
+// });
+// console.log(items);
+// console.log(betterItems);
+
+// const listItems = document.getElementsByClassName("h1");
+// console.log(listItems);
+// listItems[1].style.color = "red";
+
+// const result = document.querySelector("#result");
+// result.style.backgroundColor = "blue";
+
+// const item = document.querySelector(".special");
+// // console.log(item);
+
+// const lastItem = document.querySelector("li:last-child");
+// // console.log(lastItem);
+
+// const list = document.querySelectorAll(".special");
+
+// list.forEach(function (item) {
+//   console.log(item);
+//   item.style.color = "yellow";
+// });
+
+// const result = document.querySelector("#result");
+
+// const children = result.children;
+// console.log(children);
+// console.log(result.firstChild);
+// console.log(result.lastChild);
+
+// const heading = document.querySelector("h2");
+// // console.log(heading.parentElement.parentElement);
+// const parent = heading.parentElement;
+// parent.style.color = "red";
+
+// const first = document.querySelector(".first");
+// const second = (first.nextSibling.nextSibling.style.color = "Red");
+// console.log(second);
+
+const last = document.querySelector("#last");
+const third = last.previousSibling.previousSibling;
+console.log(third);
