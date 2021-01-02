@@ -205,8 +205,6 @@ form.search::after {
 }
 /* Style of the side bar visible */
 .shop {
-  width: 75px;
-  height: max-content;
   position: fixed;
 }
 

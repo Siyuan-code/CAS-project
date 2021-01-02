@@ -540,6 +540,267 @@
 // const second = (first.nextSibling.nextSibling.style.color = "Red");
 // console.log(second);
 
-const last = document.querySelector("#last");
-const third = last.previousSibling.previousSibling;
-console.log(third);
+// const last = document.querySelector("#last");
+// const third = last.previousSibling.previousSibling;
+// console.log(third);
+// first.nextElementSibling.style.color = "red";
+
+// const item = document.getElementById("special");
+// const value = item.firstChild.nodeValue;
+// // console.log(item.childNodes);
+// const esayValue = item.textContent;
+// console.log(esayValue);
+
+// const first = document.querySelector(".first");
+// const classValue = first.getAttribute("id");
+// console.log(classValue);
+
+// const link = document.getElementById("link");
+// const Showlink = link.getAttribute("href");
+// console.log(Showlink);
+
+// const last = link.nextElementSibling;
+// last.setAttribute("class", "first");
+// last.textContent = "I also have a class of first";
+// console.log(last);
+
+// const links = document.querySelectorAll(".first");
+// console.log(links);
+
+// const first = document.getElementById("first");
+// const second = document.getElementById("second");
+// const third = document.getElementById("third");
+
+// // const classValue = first.className;
+// // console.log(classValue);
+
+// second.className = "colors";
+
+// // third.classList.add("colors");
+// // third.classList.add("text");
+// third.classList.add("colors", "text");
+// third.classList.remove("text");
+
+// let result = third.classList.contains("colors");
+// if (result) {
+//   console.log("hello world");
+// } else {
+//   console.log("No class");
+// }
+
+// const classValue = third.classList;
+// console.log(classValue);
+
+// const result = document.querySelector("#result");
+// const first = document.querySelector(".red");
+// const bodyDiv = document.createElement("div");
+
+// const text = document.createTextNode("a simple body of node");
+// bodyDiv.appendChild(text);
+// // document.body.appendChild(bodyDiv);
+// document.body.insertBefore(bodyDiv, result);
+// //result element
+// const heading = document.createElement("h2");
+// const headingText = document.createTextNode("dynamic text");
+// heading.appendChild(headingText);
+// heading.classList.add("blue");
+// result.insertBefore(heading, first);
+
+// const smallHeading = document.createElement("h6");
+// const smallHeading1 = document.createTextNode("This is heading 6");
+// smallHeading.classList.add("red");
+// smallHeading.appendChild(smallHeading1);
+// document.body.replaceChild(smallHeading, bodyDiv);
+// // result.appendChild(heading);
+// console.log(result.children);
+
+// const heading = document.createElement("h2");
+// heading.innerText = "I am a dynamic heading";
+// document.body.prepend(heading);
+
+// const result = document.querySelector("#result");
+// // result.remove();
+// const heading = result.querySelector("h1");
+// result.removeChild(heading);
+// console.log(heading);
+
+// const list = document.getElementById("first");
+// const div = document.getElementById("second");
+// const item = document.querySelector(".item");
+
+// const ul = document.createElement("ul");
+// ul.innerHTML = `<li class="item">list item</li>
+//       <li>list item</li><li>list item</li> `;
+// document.body.appendChild(ul);
+// console.log(div.textContent);
+// console.log(list.innerHTML);
+// console.log(list.textContent);
+
+// const random = document.querySelector(".random");
+// // console.log(random.style);
+// // random.style.backgroundColor = "blue";
+// // random.style.color = "white";
+// // random.style.fontSize = "3rem";
+// // random.style.textTransform = "capitalize";
+
+// random.classList.add("title");
+
+// const btn = document.querySelector(".btn");
+// const heading = document.querySelector("h2");
+// // btn.style.backgroundColor = "red";
+// // btn.style.color = "White";
+
+// function changeColors() {
+//   //   console.log("hello");
+//   let hasClass = heading.classList.contains("red");
+//   if (hasClass) {
+//     heading.classList.remove("red");
+//   } else {
+//     heading.classList.add("red");
+//   }
+// }
+
+// btn.addEventListener("click", changeColors);
+
+// const heading = document.querySelector("h1");
+// const btn = document.querySelector(".btn");
+
+// btn.addEventListener("click", function () {
+//   console.log("you clikced me");
+// });
+// btn.addEventListener("mousedown", function () {
+//   console.log("down");
+// });
+// btn.addEventListener("mouseup", function () {
+//   console.log("up");
+// });
+// heading.addEventListener("mouseenter", function () {
+//   heading.classList.add("blue");
+// });
+// heading.addEventListener("mouseleave", function () {
+//   heading.classList.remove("blue");
+// });
+
+// const nameInput = document.getElementById("name");
+// // nameInput.addEventListener("keypress", function () {
+// //   console.log("you pressed a key");
+// // });
+// // nameInput.addEventListener("keydown", function () {
+// //   console.log("you have pressed your key");
+// // });
+// nameInput.addEventListener("keyup", function () {
+//   //   console.log("you have lifted up your key");
+//   //   console.dir(nameInput);
+//   console.log(nameInput.value);
+// });
+
+// const heading = document.querySelector("h1");
+// const btn = document.querySelector(".btn");
+// const link = document.getElementById("link");
+
+// heading.addEventListener("click", function (event) {
+//   //   heading.classList.add("blue");
+//   console.log(event.currentTarget);
+// });
+
+// btn.addEventListener("click", function () {
+//   event.currentTarget.classList.add("blue");
+// });
+
+// function someFunc(e) {
+//   e.preventDefault();
+// }
+
+// link.addEventListener("click", someFunc);
+
+// const btns = document.querySelectorAll(".btn");
+
+// btns.forEach(function (btn) {
+//   btn.addEventListener("click", function (e) {
+//     // console.log(e.currentTarget);
+//     // e.currentTarget.style.color = "green";
+//     console.log("target", e.target);
+//     e.target.style.color = "green";
+//   });
+// });
+
+// const container = document.querySelector(".container");
+// const list = document.querySelector(".list-items");
+
+// function showBubbling(e) {
+//   console.log(e.currentTarget);
+//   //   console.log(e.target);
+//   //   if (e.target.classList.contains("link")) {
+//   //     console.log("you clicked on the link");
+//   //   }
+// }
+
+// function stopPropagation(e) {
+//   e.stopPropagation();
+//   console.log("you clicked on list");
+// }
+
+// // list.addEventListener("click", stopPropagation);
+// // list.addEventListener("click", showBubbling, { capture: true });
+
+// const container = document.querySelector(".container");
+// const btn = document.querySelector(".btn");
+// // const heading = document.querySelector(".heading");
+
+// function sayHello() {
+//   console.log("hello there");
+// }
+
+// btn.addEventListener("click", function () {
+//   const element = document.createElement("h1");
+//   element.classList.add("heading");
+//   element.textContent = "I'm inside the container";
+//   document.body.appendChild(element);
+// });
+// container.addEventListener("click", function (e) {
+//   if (event.target.classList.contains("heading")) {
+//     console.log("hello world");
+//   } else {
+//     console.log("Hello");
+//   }
+// });
+
+// heading.addEventListener("click", sayHello);
+
+// const form = document.getElementById("form");
+// const name = document.getElementById("name");
+// const passwork = document.getElementById("password");
+
+// form.addEventListener("submit", function (e) {
+//   e.preventDefault();
+//   console.log("form submitted");
+//   console.log(name.value);
+//   console.log(password.value);
+// });
+
+// localStorage.setItem("name", "john");
+// localStorage.setItem("friend", "peter");
+// localStorage.setItem("job", "developer");
+// localStorage.setItem("address", "street 123");
+
+// const name = localStorage.getItem("name");
+// console.log(name);
+// localStorage.removeItem("name");
+// localStorage.clear();
+
+// const friends = ["john", "peter", "bob"];
+// localStorage.setItem("friends", JSON.stringify(friends));
+// const values = JSON.parse(localStorage.getItem("friends"));
+// console.log(values[0]);
+
+// let fruits;
+
+// if (localStorage.getItem("fruits")) {
+//   fruits = JSON.parse(localStorage.getItem("fruits"));
+// } else {
+//   fruits = [];
+// }
+// console.log(fruits);
+// // fruits.push("apple");
+// fruits.push("orange");
+// localStorage.setItem("fruits", JSON.stringify(fruits));
