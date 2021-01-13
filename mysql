@@ -1,0 +1,6 @@
+create table userinfo(
+    id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    username varchar(20) not null,
+    number varchar(30) not null
+);
+insert into userinfo (username, number) VALUES ('Siyuan', '10')

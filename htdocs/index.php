@@ -4,17 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+ 
 </head>
 <body>
-  <!-- <form action="index.php" method="post">
-      <input type="number" name="num1" />
-      <br>
-      <br>
-      <input type="number" name="num2">
-      <input type="submit" />
-    </form> -->
-    <!-- <h1>Hello</h1> -->
-<?php include "login.html" ?>
+ 
+
+
 
 
 </body>
@@ -24,6 +19,48 @@
 
 // echo "Answer:", $_POST["num1"]+ $_POST["num2"];
 
+
+class student{
+  private $name;
+  private $major;
+  private $gpa;
+
+  function __construct($Name, $Major, $GPA){
+      $this -> name = $Name;
+      $this -> major = $Major;
+      $this -> setGPA($GPA);
+  }
+  function HasHonors(){
+    if($this -> gpa >= 3.5){
+      echo "This student has honors";
+    }
+    else{
+      echo "This student does not have honors";
+    }
+  }
+  function GetGPA(){
+    return $this -> gpa;
+  }
+  function setGPA($GPA){
+    // $this -> gpa = $GPA;
+    if($GPA == "3.5"){
+      $this -> gpa = $GPA;
+    }
+    else{
+      $this -> gpa = "False";
+    }
+  }
+}
+
+class student1 extends student{
+  
+}
+
+$student1 = new student("Tom", "Math", 4.88);
+$student1 -> setGPA(3.5);
+echo $student1 -> HasHonors();
+
+echo $student1 -> GetGPA();
 
 
 
