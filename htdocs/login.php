@@ -1,5 +1,5 @@
 <?php
-    include "index1.php";
+    include_once "index1.php";
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-    $conn;
+     $conn; 
 </body>
 </html>
