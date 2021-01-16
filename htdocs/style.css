@@ -18,7 +18,7 @@
   font-size: 50px;
   color: black;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 1px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 /* Style of the button of login page */
@@ -38,10 +38,16 @@ form label {
   color: black;
   font-family: "Times New Roman", Times, serif;
 }
+
+.remember {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 /* Style the input field of the form in login page */
 form.myLogin input[type="text"],
 input[type="password"] {
-  width: 170%;
+  width: 10%;
   padding: 15px;
   margin: 10px 0 22px 0;
   display: block;
@@ -83,6 +89,53 @@ button:hover {
   display: table;
 }
 
+/* Sign up page */
+
+.signup {
+  padding: 30px;
+  text-align: center;
+}
+
+form.mySignup input[type="text"] {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+  position: relative;
+  margin-left: 450px;
+}
+
+form.mySignup input[type="password"] {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+  position: relative;
+  margin-left: 450px;
+}
+
+form.mySignup input[type="text"]:focus {
+  background: #ddd;
+  outline: none;
+}
+
+.SignupBtn {
+  width: 30%;
+  background: paleturquoise;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  outline: none;
+  position: relative;
+  margin-left: 50px;
+}
 /* Homepage */
 
 /* Style the whole top div of the homepage */
@@ -147,7 +200,7 @@ form.search::after {
   background: white;
   width: 100px;
   height: 40px;
-  color: rgb(20, 129, 255);
+  color: rgb(19, 121, 204);
   font-size: 15px;
   float: left;
   border: 1.5px solid rgb(12, 103, 207);
@@ -611,7 +664,7 @@ form.search::after {
 }
 
 .end-list {
-  color: white;
+  color: rgb(231, 223, 223);
   list-style: none;
   word-spacing: 2px;
   letter-spacing: 1px;

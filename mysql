@@ -4,3 +4,6 @@ create table userinfo(
     number varchar(30) not null
 );
 insert into userinfo (username, number) VALUES ('Siyuan', '10')
+
+
+/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Mall of Youth</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css?rnd=235" />
     
   </head>
   <body >
@@ -13,8 +13,9 @@
 
     <div class="container">
     <form
-      action="action_page.php"
+      action="includes/login.inc.php"
       class="myLogin"
+      method="POST"
       
     >
       <label for="Email"><b>Email</b></label>
@@ -27,7 +28,7 @@
         placeholder="type password"
         required
       />
-        <a href="#" class="register"><p>Register an account</p></a>
+        <a href="signup.php" class="register"><p>Register an account</p></a>
       <!-- <label for="password-confirm"><b>Confirm Password</b></label>
       <input
         type="password"
@@ -36,7 +37,7 @@
         required
       /> -->
 
-      <label for="checkbox" name="remember" style="margin-bottom: 15px"></label>
+      <input type="checkbox" value="remember" class = "remember"> remember password
 
       <!-- <p>
         By creating an account you agree to our
@@ -44,9 +45,9 @@
       </p> -->
 
       <div class="clearfix">
-        <a href="homepage.html">
-          <button type="button" class="loginbtn">Login</button>
-        </a>
+
+          <button type="submit" class="loginbtn" name = "submit">Login</button>
+        
         <!-- <button type="button" class="loginbtn">
           <a href="homepage.html">login</a>
         </button> -->
