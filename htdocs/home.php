@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Mall of Youth</title>
-    <link rel="stylesheet" href="style.css?rnd=238" />
+    <link rel="stylesheet" href="style.css?rnd=224" />
     <script src="main.js"></script>
     <link rel="stylesheet" href="/fontawesome-free-5.15.1-web/css/all.css" />
   </head>
@@ -12,8 +12,8 @@
     <!-- The very top header -->
     <div id="main">
       <div class="header">
-        <h1>The Mall of Youth</h1>
         <!-- The title -->
+        <h1>The Mall of Youth</h1>
       </div>
       <!-- The search bar -->
       <form class="search" action="index.php" method="POST">
@@ -21,10 +21,9 @@
         <button type="submit"><i class="fa fa-search"></i></button>
       </form>
 
-      <!-- The Sign in button -->
-      <a href="loginpage.php" class="sign-in">
-        <button class="sign-in-btn"><p class="sign-in-text">SIGN IN</p></button>
-      </a>
+        <!-- The Logout button -->
+        <a href="homepage.php"><button class="logoutbtn">Logout</button></a>
+
     </div>
     <!-- The end of the very top header -->
 
@@ -57,7 +56,7 @@
         <i id="menu" class="fas fa-bars" onclick="openNav()"></i>
       </button>
       <!--The menu icon that opens the hided side menu-->
-      <a href="homepage.html">
+      <a href="home.php">
       <button>
         <i id="home" class="fas fa-home"><p class="t-home">home</p></i>
       </button>
@@ -73,7 +72,7 @@
     <div id="myMain-content" class="main-content">
       <div class="subpages">
         <div class="dropdown">
-          <button class="dropbtn">Blog</button>
+          <a href="#"><button class="dropbtn">Blog</button></a>
           <div class="dropdown-content">
             <a href="#">Nouvelles idées</a>
             <a href="#">Inspirational ideas</a>
@@ -81,7 +80,7 @@
           </div>
         </div>
         <div class="dropdown1">
-          <button class="dropbtn1">Stock photos</button>
+          <a href="stockphoto.php"><button class="dropbtn1">Stock photos</button></a>
           <div class="dropdown-content1">
             <a href="#">Nature</a>
             <a href="#">People</a>
@@ -89,7 +88,7 @@
           </div>
         </div>
         <div class="dropdown2">
-          <button class="dropbtn2">Art paints</button>
+          <a href="#"><button class="dropbtn2">Art paints</button></a>
           <div class="dropdown-content2">
             <a href="#">Modern</a>
             <a href="#">Contemporary</a>
@@ -126,11 +125,10 @@
           <ul class="end-list">
             <li>Terms and Condition</li>
             <li>Email: siyuan.r_daa@gemsdaa.net</li>
-            <li>Whatsapp number: 050-3424753</li>
+            <li>Telegram number: 050-3424753</li>
             <li>If you cannot find us, you can go to DAA High School Library to find us during lunch time.</li>
           </ul>
         </div> 
     </div>
   </body>
 </html>
-

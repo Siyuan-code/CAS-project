@@ -13,18 +13,24 @@ else{
 }
 
 $wallet = $wallet - $expenses + $earnings;
-
+$fee = abs($wallet * 0.1);
 if($wallet<0){
     echo "You owe the bank";
     echo "<br>";
-    $fee = abs($wallet * 0.1);
     echo "The fee is $$fee ";
     echo "<br>";
 }
-else{
+
+$CurrentWallet = $wallet - $fee;
+
+if($CurrentWallet>$wallet){
     echo "The wallet did grow";
-    echo "<br>";
 }
+else{
+    echo "The wallet did not grow";
+}
+
+
 
 $percentage = $expenses/$earnings*100;
 echo "The expenses is $percentage % of earning";

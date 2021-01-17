@@ -47,7 +47,7 @@ form label {
 /* Style the input field of the form in login page */
 form.myLogin input[type="text"],
 input[type="password"] {
-  width: 10%;
+  width: 170%;
   padding: 15px;
   margin: 10px 0 22px 0;
   display: block;
@@ -135,6 +135,10 @@ form.mySignup input[type="text"]:focus {
   outline: none;
   position: relative;
   margin-left: 50px;
+}
+
+.backtologin {
+  color: rgb(18, 144, 182);
 }
 /* Homepage */
 
@@ -386,6 +390,7 @@ form.search::after {
   outline: none;
   border: none;
   background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
 }
 
 .dropdown1:hover .dropdown-content1 {
@@ -435,6 +440,7 @@ form.search::after {
   outline: none;
   border: none;
   background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
 }
 
 .dropdown2:hover .dropbtn {
@@ -453,7 +459,7 @@ form.search::after {
   left: 0;
 }
 .dropbtn {
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   outline: none;
   color: white;
@@ -461,7 +467,8 @@ form.search::after {
   background-color: rgba(0, 0, 0, 0.6);
   font-family: inherit;
   margin: 0;
-  height: 3.5em;
+  height: 3em;
+  cursor: pointer;
 }
 
 .dropdown-content {
@@ -675,4 +682,35 @@ form.search::after {
 
 li {
   margin-bottom: 20px;
+}
+
+/* Logout page */
+
+.logoutbtn {
+  background: white;
+  width: 100px;
+  height: 40px;
+  color: rgb(19, 121, 204);
+  font-size: 15px;
+  float: left;
+  border: 1.5px solid rgb(12, 103, 207);
+  border-radius: 5px;
+  margin-top: 10px;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* stockphoto page */
+
+.photos {
+  width: 400px;
+  height: 500px;
+  background: rgb(110, 105, 105);
+  position: relative;
+  top: 100px;
+  left: 100px;
+  margin-right: 170px;
+  display: inline-block;
 }

@@ -45,6 +45,17 @@ function pwdMatch($pwd,$pwdRepeat){
     return $result;
 }
 
+function pwdLong($pwd){
+    $result;
+    if(strlen($pwd) >= 16){
+        $result = true;
+    }
+    else{
+        $result = false;
+    }
+    return $result;
+}
+
 function userNameExists($conn, $username, $email){
    $sql = "SELECT * FROM users WHERE userName = ? OR userEmail = ?;";
    $stmt = mysqli_stmt_init($conn);
@@ -115,7 +126,7 @@ function loginUser($conn,$username, $pwd){
         session_start();
         $_SESSION["userid"] = $userNameExists["userId"];
         $_SESSION["username"] = $userNameExists["userName"];
-        header("location: ../homepage.php");
+        header("location: ../home.php");
         exit(); 
     }
    

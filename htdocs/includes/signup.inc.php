@@ -27,6 +27,10 @@ if (isset($_POST["submit"])) {
         header("location: ../signup.php?error=pwdnotmatch");
         exit();
     }
+    if(pwdLong($pwd) !== false){
+        header("location: ../signup.php?error=pwdLong");
+        exit();
+    }
     if(userNameExists($conn, $username,$email) !== false){
         header("location: ../signup.php?error=usernametaken");
         exit();

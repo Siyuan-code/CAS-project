@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?rnd=236"/>
+    <link rel="stylesheet" href="style.css?rnd=227"/>
     <title>The Mall of Youth</title>
 </head>
 <body>
@@ -33,7 +33,9 @@
 
             <button type="submit" class="SignupBtn" name = "submit">Sign up</button>
 
+
         </form>
+        <a href="logins.php" class="backtologin">Already have an account?</a>
 
         <?php
         if(isset($_GET["error"])){
@@ -48,6 +50,9 @@
             }
             else if ($_GET["error"] == "pwdnotmatch"){
                 echo "<p> Please enter the same password !</p>";
+            }
+             else if ($_GET["error"] == "pwdLong"){
+                echo "<p> Your password must be less than 16 characters !</p>";
             }
             else if ($_GET["error"] == "stmtfailed"){
                 echo "<p> Something went wrong! Try Again !</p>";
