@@ -140,6 +140,10 @@ form.mySignup input[type="text"]:focus {
 .backtologin {
   color: rgb(18, 144, 182);
 }
+
+.searchEmail {
+  color: rgb(70, 230, 105);
+}
 /* Homepage */
 
 /* Style the whole top div of the homepage */
@@ -337,7 +341,7 @@ form.search::after {
   position: absolute;
   top: 55px;
   margin-left: 85px;
-  background: white;
+  background: rgb(70, 175, 179);
 }
 
 .subpages {
@@ -703,14 +707,49 @@ li {
 }
 
 /* stockphoto page */
-
-.photos {
-  width: 400px;
-  height: 500px;
-  background: rgb(110, 105, 105);
+.welcome1 {
   position: relative;
   top: 100px;
+  color: rgb(219, 236, 58);
+  text-align: center;
+}
+
+.Box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
   left: 100px;
-  margin-right: 170px;
-  display: inline-block;
+  background: purple;
+}
+
+/* search.php */
+
+.find {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.backtoSignUp {
+  margin-left: 550px;
+  margin-top: 500px;
+  padding: 15px;
+  display: block;
+  color: rgb(13, 53, 90);
+}
+
+form.EnterUser input[type="text"] {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+  position: relative;
+  margin-left: 450px;
+}
+
+#search1 {
+  margin-top: 100px;
+  text-align: center;
 }

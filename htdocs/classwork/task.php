@@ -1,7 +1,7 @@
 <?php
 $wallet = 1000;
 $earnings = 500;
-$expenses = 1900; 
+$expenses = 700; 
 
 if($earnings > $expenses){
     echo "You are in the black";
@@ -12,9 +12,9 @@ else{
     echo "<br>";
 }
 
-$wallet = $wallet - $expenses + $earnings;
-$fee = abs($wallet * 0.1);
-if($wallet<0){
+$wallet1 = $earnings - $expenses;
+$fee = abs($wallet1 * 0.1);   //set it to wallet1 to distinguish between wallet
+if($wallet1<0){
     echo "You owe the bank";
     echo "<br>";
     echo "The fee is $$fee ";

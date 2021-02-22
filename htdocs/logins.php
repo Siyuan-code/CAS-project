@@ -64,7 +64,6 @@
     </div>
   
     </form>
-
     <!-- <div class="image-lake">
       <img src="./Image/WhatsApp Image 2020-12-10 at 7.15.07 PM.jpeg" alt="Lake" >
     </div> -->

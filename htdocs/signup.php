@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?rnd=227"/>
+    <link rel="stylesheet" href="style.css?rnd=226"/>
     <title>The Mall of Youth</title>
 </head>
 <body>
@@ -36,7 +36,9 @@
 
         </form>
         <a href="logins.php" class="backtologin">Already have an account?</a>
-
+        <br>
+        <br>
+        <a href="search.php" class= "searchEmail"> Search email</a>
         <?php
         if(isset($_GET["error"])){
             if($_GET["error"] == "emptyinput"){

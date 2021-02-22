@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?rnd=222" />
+    <link rel="stylesheet" href="style.css?rnd=243" />
     <script src="main.js"></script>
     <link rel="stylesheet" href="/fontawesome-free-5.15.1-web/css/all.css" />
     <title>The Mall of Youth</title>
@@ -94,9 +94,11 @@
             <a href="#">Classical</a>
           </div>
       </div>
-
+      <h1 class="welcome1">Welcome to the stockphotos page</h1>
+    </div>
       <!-- The photos content -->
-      <div class="photos"></div>
-      <div class="photos"></div>
+    <div class="Box">red</div>
+      
+
 </body>
 </html>

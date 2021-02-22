@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -20,47 +20,47 @@
 // echo "Answer:", $_POST["num1"]+ $_POST["num2"];
 
 
-class student{
-  private $name;
-  private $major;
-  private $gpa;
+// class student{
+//   private $name;
+//   private $major;
+//   private $gpa;
 
-  function __construct($Name, $Major, $GPA){
-      $this -> name = $Name;
-      $this -> major = $Major;
-      $this -> setGPA($GPA);
-  }
-  function HasHonors(){
-    if($this -> gpa >= 3.5){
-      echo "This student has honors";
-    }
-    else{
-      echo "This student does not have honors";
-    }
-  }
-  function GetGPA(){
-    return $this -> gpa;
-  }
-  function setGPA($GPA){
-    // $this -> gpa = $GPA;
-    if($GPA == "3.5"){
-      $this -> gpa = $GPA;
-    }
-    else{
-      $this -> gpa = "False";
-    }
-  }
-}
+//   function __construct($Name, $Major, $GPA){
+//       $this -> name = $Name;
+//       $this -> major = $Major;
+//       $this -> setGPA($GPA);
+//   }
+//   function HasHonors(){
+//     if($this -> gpa >= 3.5){
+//       echo "This student has honors";
+//     }
+//     else{
+//       echo "This student does not have honors";
+//     }
+//   }
+//   function GetGPA(){
+//     return $this -> gpa;
+//   }
+//   function setGPA($GPA){
+//     // $this -> gpa = $GPA;
+//     if($GPA == "3.5"){
+//       $this -> gpa = $GPA;
+//     }
+//     else{
+//       $this -> gpa = "False";
+//     }
+//   }
+// }
 
-class student1 extends student{
+// class student1 extends student{
   
-}
+// }
 
-$student1 = new student("Tom", "Math", 4.88);
-$student1 -> setGPA(3.5);
-echo $student1 -> HasHonors();
+// $student1 = new student("Tom", "Math", 4.88);
+// $student1 -> setGPA(3.5);
+// echo $student1 -> HasHonors();
 
-echo $student1 -> GetGPA();
+// echo $student1 -> GetGPA(); -->
 
 
 
