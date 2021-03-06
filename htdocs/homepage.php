@@ -52,7 +52,7 @@
         </li>
 
         <li>
-          <a class="homebtn" href="homepage.html"
+          <a class="homebtn" href="home.php"
             ><i id="home-in" class="fas fa-home"></i>home</a
           >
           <!--The home button-->
