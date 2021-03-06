@@ -124,11 +124,11 @@
             <p class="thead">About us</p>
           <ul class="end-list">
             <li>Terms and Condition</li>
-            <li>Email: siyuan.r_daa@gemsdaa.net</li>
-            <li>Telegram number: 050-3424753</li>
+            <li>Email: siyuan.r_daa@gemsdaa.net , tao_jindaa@gemsdaa.net </li> 
+            <li>Telegram number: 050-3424753 , 055-5638807 </li>
             <li>If you cannot find us, you can go to DAA High School Library to find us during lunch time.</li>
           </ul>
-        </div> 
+        </div>
     </div>
   </body>
 </html>
