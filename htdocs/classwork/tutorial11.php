@@ -1,5 +1,5 @@
 <?php
-// $output = substr('Hello', 1,3); 
+// $output = substr('Hello', 1,3); //get substring
 // $output = substr('Hello', -2); 
 // $output = strlen('Hello World');
 // $output = strpos("Hello World", "o");
@@ -38,15 +38,22 @@
 ?>
 
 <?php
-// if(isset($_GET['name'])){
-//     print_r($_GET);
-// }
+if(isset($_GET['name'])){
+    $name = htmlentities($_GET['name']);
+    echo $name;
+    // print_r($_GET);
+}
 // if(isset($_POST['name'])){
+//     $name = htmlentities($_POST['name']);
 //     echo $name;
 // }
 // echo $_POST['name'];
-echo $_GET['name'];
-echo $_SERVER['QUERY_STRING'];
+// if(isset($_REQUEST['name'])){
+//     print_r($_REQUEST);
+//      echo $name;
+//  }
+// echo $_GET['name'];
+echo $_SERVER['QUERY_STRING']; // gives the entire string
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -56,7 +63,7 @@ echo $_SERVER['QUERY_STRING'];
     <title>Document</title>
 </head>
 <body>
-    <form action="algo1.php" method="GET">
+    <form action="tutorial11.php" method="GET">
     <div>
     <label for="name">Name</label><br>
     <input type="text" name="name">
@@ -67,6 +74,12 @@ echo $_SERVER['QUERY_STRING'];
     </div>
     <input type="submit" value="submit">
     </form>
+    <ul>
+        <li>
+            <a href="tutorial11.php?name=Siyuan">Siyuan</a>
+        </li>
+    </ul>
+    <h1><?php echo "{$name}'s Profile";?></h1>
 </body>
 </html>
 
