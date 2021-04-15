@@ -341,7 +341,7 @@ form.search::after {
   position: absolute;
   top: 55px;
   margin-left: 85px;
-  background: rgb(36, 178, 235);
+  background: rgb(98, 200, 240);
 }
 
 .subpages {
@@ -710,27 +710,8 @@ li {
 .welcome1 {
   position: relative;
   top: 120px;
-  color: rgb(58, 61, 236);
+  color: rgb(24, 88, 206);
   text-align: center;
-  animation-name: move1;
-  animation-duration: 7s;
-  animation-iteration-count: 2;
-  animation: move1 5s 1;
-  animation-fill-mode: forwards;
-}
-@keyframes move1 {
-  0% {
-  }
-  50% {
-    color: rgb(255, 174, 0);
-  }
-  75% {
-    color: rgb(201, 61, 219);
-    transform: scale(2);
-  }
-  100% {
-    color: rgb(20, 83, 155);
-  }
 }
 
 .Box {
@@ -753,41 +734,19 @@ li {
   position: absolute;
   top: 100px;
   right: 100px;
-  background: rgb(20, 83, 155);
-  animation-name: move;
-  animation-duration: 7s;
-  animation-iteration-count: 2;
-  animation: move 5s 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes move {
-  0% {
-    transform: translateX(20px);
-  }
-  50% {
-    transform: translateX(50px);
-    background: red;
-  }
-  75% {
-    transform: translateX(-200px);
-    background: yellow;
-  }
-  100% {
-    transform: translateX(20px);
-    background: rgb(20, 83, 155);
-  }
+  background: rgb(241, 135, 47);
 }
 
 .photo {
   width: 315px;
   height: 220px;
   position: relative;
-  top: 700px;
+  top: 580px;
   left: 100px;
   background: rgb(157, 158, 160);
   display: inline-block;
   margin-right: 200px;
+  margin-top: 50px;
   margin-left: 50px;
 }
 
@@ -807,6 +766,17 @@ li {
   top: 220px;
   right: 100px;
   background: rgb(36, 178, 235);
+}
+
+/* Art paint page */
+
+.main-content1 {
+  width: 1200px;
+  height: 2545px;
+  position: absolute;
+  top: 55px;
+  margin-left: 85px;
+  background: rgb(98, 240, 197);
 }
 
 /* search.php */

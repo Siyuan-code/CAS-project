@@ -27,9 +27,7 @@ mysqli_close($conn);
     <h1>Posts</h1>
     <?php foreach($posts as $post): ?>
         <div class="well">
-            <h3>
                 <h3 class="lead" ><?php echo $post['title'];?></h3>
-            </h3>
             <small class="lead">Created on <?php echo $post['created_at']?>by
             <?php echo $post['author']?>
             <p class= "lead"><?php echo $post['body']?></p>

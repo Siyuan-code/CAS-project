@@ -84,27 +84,12 @@
       <div class="subpages">
         <div class="dropdown">
           <a href="#"><button class="dropbtn">Blog</button></a>
-          <div class="dropdown-content">
-            <a href="#">Nouvelles idées</a>
-            <a href="#">Inspirational ideas</a>
-            <a href="#">Study tips</a>
-          </div>
         </div>
         <div class="dropdown1">
           <a href="logins.php"><button class="dropbtn1">Stock photos</button></a>
-          <div class="dropdown-content1">
-            <a href="#">Nature</a>
-            <a href="#">People</a>
-            <a href="#">Building</a>
-          </div>
         </div>
         <div class="dropdown2">
          <a href="#"><button class="dropbtn2">Art paints</button></a>
-          <div class="dropdown-content2">
-            <a href="#">Modern</a>
-            <a href="#">Contemporary</a>
-            <a href="#">Classical</a>
-          </div>
       </div>
         <div class="first">
           <div class="intro"><h1>Welcome to The Mall of Youth !</h1>

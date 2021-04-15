@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?rnd=244" />
+    <link rel="stylesheet" href="style.css?rnd=3" />
     <script src="main.js"></script>
     <link rel="stylesheet" href="/fontawesome-free-5.15.1-web/css/all.css" />
     <title>The Mall of Youth</title>
@@ -40,7 +40,7 @@
         </li>
 
         <li>
-          <a class="homebtn" href="homepage.html"
+          <a class="homebtn" href="home.php"
             ><i id="home-in" class="fas fa-home"></i>home</a
           >
           <!--The home button-->
@@ -71,38 +71,33 @@
     <div id="myMain-content" class="main-content">
       <div class="subpages">
         <div class="dropdown">
-          <button class="dropbtn">Blog</button>
-          <div class="dropdown-content">
-            <a href="#">Nouvelles idées</a>
-            <a href="#">Inspirational ideas</a>
-            <a href="#">Study tips</a>
-          </div>
+          <a href="original.php"><button class="dropbtn">Original ideas</button></a>
         </div>
-        <div class="dropdown1">
-          <button class="dropbtn1">Stock photos</button>
-          <div class="dropdown-content1">
-            <a href="#">Nature</a>
-            <a href="#">People</a>
-            <a href="#">Building</a>
-          </div>
+        <!-- <div class="dropdown1">
+          <a href="stockphoto.php"><button class="dropbtn1">Stock photos</button></a>
         </div>
         <div class="dropdown2">
-          <button class="dropbtn2">Art paints</button>
-          <div class="dropdown-content2">
-            <a href="#">Modern</a>
-            <a href="#">Contemporary</a>
-            <a href="#">Classical</a>
-          </div>
-      </div>
-      <h1 class="welcome1">Stockphotos</h1>
+          <a href="artpaint.php"><button class="dropbtn2">Art paints</button></a>
+      </div> -->
+      <h2 class="welcome1">Share your creative and original ideas! It can be anything!</h2>
     </div>
       <!-- The photos content -->
     <div class="Box"></div>
     <div class="Box1"></div>
     <div class="photo"></div>
     <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
+    <div class="photo"></div>
     <div class="photo1"></div>
-    <div class="description">This is a brief Headline and introduction of the photo</div>
+    <div class="description">This is a brief Headline and introduction of the photo. The most popular photo will be shown here, and we have an expectation that the photo that is here will have the highest number of downloads.</div>
 
  
 

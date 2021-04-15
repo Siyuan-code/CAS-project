@@ -41,7 +41,7 @@
         </li>
 
         <li>
-          <a class="homebtn" href="homepage.html"
+          <a class="homebtn" href="home.php"
             ><i id="home-in" class="fas fa-home"></i>home</a
           >
           <!--The home button-->
@@ -71,34 +71,23 @@
     <!-- Start of the Main content -->
     <div id="myMain-content" class="main-content">
       <div class="subpages">
-        <div class="dropdown">
+        <!-- <div class="dropdown">
           <a href="#"><button class="dropbtn">Blog</button></a>
-          <div class="dropdown-content">
-            <a href="#">Nouvelles idées</a>
-            <a href="#">Inspirational ideas</a>
-            <a href="#">Study tips</a>
-          </div>
         </div>
         <div class="dropdown1">
           <a href="stockphoto.php"><button class="dropbtn1">Stock photos</button></a>
-          <div class="dropdown-content1">
-            <a href="#">Nature</a>
-            <a href="#">People</a>
-            <a href="#">Building</a>
-          </div>
         </div>
         <div class="dropdown2">
-          <a href="#"><button class="dropbtn2">Art paints</button></a>
-          <div class="dropdown-content2">
-            <a href="#">Modern</a>
-            <a href="#">Contemporary</a>
-            <a href="#">Classical</a>
-          </div>
+          <a href="artpaint.php"><button class="dropbtn2">Art paints</button></a>
+        </div> -->
       </div>
+        <div class="dropdown">
+          <a href="original.php"><button class="dropbtn1">Original ideas</button></a>
+        </div>
         <div class="first">
-          <div class="intro"><h1>Welcome to The Mall of Youth !</h1>
+          <div class="intro"><h2>What do you think the future world needs?</h2>
             <br>
-            <p class="paragraph">The Mall of Youth is a platform where teenagers can open their own shop and display their own products while earning the Y dollars, the currency in this website.</p>
+            <p class="paragraph">We believe the future belongs to the teenagers now, and original works are really important in the future, however, people are not aware of it. We need to have our own originals in order to compete with others, we need to have our own unique ideas. Communication between original ideas can inspire new ideas, this is crucial for building a different future. Spot needs around you and be innovative! We are competing creativity here ! We will reward Y dollars to authors of original works.  </p>
           </div>
           <div class="logo">Logo</div>
         </div>

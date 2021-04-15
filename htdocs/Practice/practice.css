@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table {
+  margin: 40px;
+  border-collapse: collapse;
+  width: 100px;
+}
+
+.tableHead {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  background: rgb(226, 220, 220);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.btn1 {
+  float: left;
+  width: 10%;
+  background: paleturquoise;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0 0 50px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  outline: none;
+}

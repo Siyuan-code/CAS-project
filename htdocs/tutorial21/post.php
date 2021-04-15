@@ -62,7 +62,7 @@ mysqli_close($conn);
             <input type="submit" value="Delete" name="delete" class="btn btn-danger">
         </form>
 
-            <a href="<?php echo ROOT_URL; ?>editpost.php?id=<?php echo $post[id]; ?>" class="btn btn-primary">Edit</a>
+            <a href="<?php echo ROOT_URL; ?>editpost.php?id=<?php echo $post['id']; ?>" class="btn btn-primary">Edit</a>
 </div>
 
 
