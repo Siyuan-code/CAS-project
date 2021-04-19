@@ -24,7 +24,7 @@ $id = mysqli_real_escape_string($conn, $_GET['id']);
 $query = 'SELECT * FROM posts WHERE id= '.$id;
 
 // Get result
-
+// The results are arrays
 $result = mysqli_query($conn, $query);
 
 // Fetch Data

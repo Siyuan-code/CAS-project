@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?rnd=3" />
+    <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
     <link rel="stylesheet" href="/fontawesome-free-5.15.1-web/css/all.css" />
     <title>The Mall of Youth</title>
@@ -73,31 +73,18 @@
         <div class="dropdown">
           <a href="original.php"><button class="dropbtn">Original ideas</button></a>
         </div>
-        <!-- <div class="dropdown1">
-          <a href="stockphoto.php"><button class="dropbtn1">Stock photos</button></a>
-        </div>
-        <div class="dropdown2">
-          <a href="artpaint.php"><button class="dropbtn2">Art paints</button></a>
-      </div> -->
+      </div>
       <h2 class="welcome1">Share your creative and original ideas! It can be anything!</h2>
+      
+      <div class="content-popular">
+        <div class="photo1"></div>
+        <div class="description">
+          <h4 id="title1">Title:  these contents will be written by users, so here should have php codes, I'll add them later </h4>
+          <h4 id="title2">Introduction:  </h4>
+          <h4 id="title1">The idea behind it:  </h4>
+        </div>
+      </div>
     </div>
-      <!-- The photos content -->
-    <div class="Box"></div>
-    <div class="Box1"></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-    <div class="photo"></div>
-    <div class="photo1"></div>
-    <div class="description">This is a brief Headline and introduction of the photo. The most popular photo will be shown here, and we have an expectation that the photo that is here will have the highest number of downloads.</div>
 
  
 
