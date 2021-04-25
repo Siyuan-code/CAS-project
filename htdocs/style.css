@@ -353,9 +353,42 @@ form.search::after {
   position: absolute;
   top: 0px;
   margin-left: 0px;
-  background: rgb(56, 56, 56);
+  /* background: rgb(20, 20, 20); */
+  /* background: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40)); */
   border-left: 1px solid rgba(236, 222, 222, 0.699);
   overflow: hidden;
+}
+
+.background {
+  width: 1280px;
+  height: 2900px;
+  position: absolute;
+  top: 600px;
+  /* right: 1000px; */
+  right: 0px;
+  /* background: rgb(20, 20, 20); */
+  /* background: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40)); */
+  animation: move 1s 1;
+  animation-fill-mode: forwards;
+  border-left: 1px solid rgba(236, 222, 222, 0.699);
+  overflow: hidden;
+}
+
+@keyframes move {
+  0% {
+    opacity: 1;
+    background: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40));
+  }
+  50% {
+    /* opacity: 0; */
+    /* transform: translateX(-1280px); */
+  }
+  100% {
+    opacity: 1;
+    /* transform: translateX(1000px); */
+    transform: translateY(-600px);
+    background: linear-gradient(to right, rgb(20, 20, 20), rgb(40, 40, 40));
+  }
 }
 
 .main-content2 {
@@ -380,21 +413,34 @@ form.search::after {
 
 .new-image {
   position: absolute;
-  right: 20px;
+  right: 150px;
   top: 100px;
   width: 300px;
   height: 500px;
   border: 1px solid black;
 }
 
+.circle {
+  width: 1000px;
+  height: 1000px;
+  /* background: red; */
+  border: 1px solid rgba(65, 64, 64, 0.8);
+  border-radius: 2000px;
+  position: absolute;
+  top: -60px;
+  left: 550px;
+  z-index: 1;
+}
+
 .subpages {
-  background: rgb(36, 35, 35);
-  width: 1280px;
+  /* background: rgb(36, 35, 35); */
+  width: 1050px;
   height: 40px;
-  margin-top: 100px;
-  position: fixed;
-  z-index: 4;
-  /* border-bottom: 1px solid black; */
+  margin-top: 30px;
+  margin-left: 100px;
+  /* position: fixed; */
+  z-index: 0;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.7);
 }
 
 .subpages2 {
@@ -514,9 +560,9 @@ form.search::after {
 .dropdown {
   display: block;
   position: absolute;
-  background: lightslategray;
-  top: 0;
-  left: 0;
+  /* background: lightslategray; */
+  top: 18px;
+  left: 400px;
   z-index: 4;
   height: 40px;
 }
@@ -524,12 +570,12 @@ form.search::after {
   /* font-size: 18px; */
   border: none;
   outline: none;
-  color: rgb(255, 255, 255);
+  color: rgb(33, 224, 151);
   /* padding: 14px 16px; */
   padding-top: 0px;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: rgba(36, 35, 35, 0.6);
+  background-color: rgb(20, 20, 20);
   font-family: inherit;
   margin: 0;
   height: 3.65em;
@@ -577,8 +623,19 @@ form.search::after {
   width: 600px;
   font-size: 38px;
   font-family: Arial, Helvetica, sans-serif;
-
+  z-index: 3;
   color: rgb(255, 255, 255);
+}
+
+span {
+  opacity: 0;
+  transition: all 1.5s ease;
+  color: white;
+}
+
+span.fade {
+  opacity: 1;
+  color: rgb(36, 154, 175);
 }
 
 .paragraph {
@@ -589,7 +646,32 @@ form.search::after {
   word-spacing: 1px;
   color: rgb(202, 202, 202);
   text-shadow: 1px 1px rgba(0, 0, 0, 0.185);
+  z-index: 3;
+  display: flex;
 }
+
+/* .typing {
+  position: relative;
+  margin-left: 30px;
+}
+
+.typing::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 82%;
+  border-right: 2px solid rgb(255, 255, 255);
+  animation: blink 0.9s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
 
 .logo {
   position: absolute;
@@ -775,10 +857,10 @@ li {
   background: white;
   width: 100px;
   height: 40px;
-  color: rgb(238, 27, 27);
+  color: rgb(128, 119, 119);
   font-size: 15px;
   float: left;
-  border: 1.5px solid rgb(216, 25, 25);
+  border: 1.5px solid rgb(231, 231, 231);
   border-radius: 5px;
   margin-top: 30px;
   position: absolute;

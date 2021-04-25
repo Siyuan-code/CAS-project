@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Mall of Youth</title>
-    <link rel="stylesheet" href="style.css?rnd=1" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css?rnd=4" />
+    <!-- <script src="main.js?rnd=1"></script> -->
     <link rel="stylesheet" href="/fontawesome-free-5.15.1-web/css/all.css" />
   </head>
   <body>
+    <div class="background"></div>
     <!-- The very top header -->
     <!-- <div id="main"> -->
       <!-- <div class="header"> -->
@@ -29,16 +30,16 @@
       <ul>
         <li>
           <!-- Click the menu icon in the side menu and the side menu will close -->
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-            <i id="menu" class="fas fa-bars"></i>
+          <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> -->
+            <!-- <i id="menu" class="fas fa-bars"></i> -->
             <!--The menu icon-->
           </a>
         </li>
 
         <li>
-          <a class="homebtn" href="home.php"
+          <!-- <a class="homebtn" href="home.php"
             ><i id="home-in" class="fas fa-home"></i>home</a
-          >
+          > -->
           <!--The home button-->
         </li>
       </ul>
@@ -76,6 +77,10 @@
           <div class="new-image">
             <img src="Image/water.jpeg" alt="" width="300px" height="500px">
           </div>
+
+          <div class="circle">
+
+          </div>
         <!-- <div class="new-menu">
             <button>
               <i id="menu" class="fas fa-bars" onclick="openNav()"></i>
@@ -90,23 +95,29 @@
             </button> 
         </div> -->
         
-     <div class="subpages">
+     <!-- <div class="subpages">
         <div class="dropdown">
           <a href="original.php"><button class="dropbtn"><p>Take a look</p></button></a>
         </div>
-      </div> 
+      </div>  -->
+      <div class="subpages"></div>
+      <div class="dropdown">
+          <a href="original.php"><button class="dropbtn"><p>Take a look</p></button></a>
+        </div>
+      
         <div class="first">
-          <div class="intro"><h2>Welcome to the Mall of Youth</h2>
+          <div class="intro"><h2 class="fancy">Welcome to the Mall of Youth</h2>
             <br>
-            <p class="paragraph">We believe original works are really important in the future. </p>
+            <p class="paragraph">We believe original works are really important in the future. Like the photo aside, which catches even small droplets of water, beautiful and impressive!  </p>
+            <script src="main.js?rnd=3"></script>
           </div>
         </div>
         
     
-        <div class="blog">
+        <!-- <div class="blog">
           <h1 class="intro-blog">Our Mission</h1>
-          <p class="blog1">This website should be a place for original ideas of high school students. There are going to be many originals here that spark inspirational ideas. People are going to be communicating with their originals and sharing ideas. This is not like Whatsapp, because Whatsapp is only for chatting, although people can also talk about their originals, under such environment, people are unlikely to do that. This is not like any other art paint website or stock photos website, because although they also show art paints and stock photos for people to download, people don't communicate about their ideas there, but we want ideas to collide with each other, and if people want to start a shop elsewhere, they need to pay money, whereas on my website, it is free.  The idea behind my website is "sharing and earning"; people share their originals and earn virtual money from others. People can reward each other by Y dollars if they love each other's idea.</p>
-        </div>
+          <p class="blog1">This website should be a place for original ideas of high school students. There are going to be many originals here that spark inspirational ideas. People are going to be communicating with their originals and sharing ideas. This is not like any other art paint website or stock photos website, because although they also show art paints and stock photos for people to download, people don't communicate about their ideas there, but we want ideas to collide with each other, and if people want to start a shop elsewhere, they need to pay money, whereas on my website, it is free.  The idea behind my website is "sharing and earning"; people share their originals and earn virtual money from others. People can reward each other by Y dollars if they love each other's idea.</p>
+        </div> -->
         <div class="stock-photos">
           <h1 class="intro-photos">What can I do on this webiste?</h1>
           <p class="photos1">
