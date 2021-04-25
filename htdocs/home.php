@@ -4,32 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Mall of Youth</title>
-    <link rel="stylesheet" href="style.css?rnd=224" />
+    <link rel="stylesheet" href="style.css?rnd=1" />
     <script src="main.js"></script>
     <link rel="stylesheet" href="/fontawesome-free-5.15.1-web/css/all.css" />
   </head>
   <body>
     <!-- The very top header -->
-    <div id="main">
-      <div class="header">
+    <!-- <div id="main"> -->
+      <!-- <div class="header"> -->
         <!-- The title -->
-        <h1>The Mall of Youth</h1>
-      </div>
-      <!-- The search bar -->
-      <form class="search" action="index.php" method="POST">
-        <input type="text" placeholder="Search" name="search" />
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-
+        <!-- <h1>The Mall of Youth</h1> -->
+      <!-- </div> -->
+        <!-- <a href="account.php"><button>ACCOUNT</button></a> -->
         <!-- The Logout button -->
-        <a href="homepage.php"><button class="logoutbtn">Logout</button></a>
+        <!-- <a href="homepage.php"><button class="logoutbtn">Logout</button></a> -->
 
-    </div>
+    <!-- </div> -->
     <!-- The end of the very top header -->
 
     <!-- Start of the hided side menu -->
-    <div id="mySide-menu" class="side-menu">
-      <a href="#"><h3 id="mall">The Mall of Youth</h3></a>
+    <!-- <div id="mySide-menu" class="side-menu"> -->
+      <!-- <a href="#"><h3 id="mall">The Mall of Youth</h3></a> -->
       <!-- The header of the side menu -->
       <ul>
         <li>
@@ -47,61 +42,67 @@
           <!--The home button-->
         </li>
       </ul>
-    </div>
+    <!-- </div> -->
     <!-- End of the hided side menu -->
 
     <!-- The visible menu at the side -->
     <!-- <div class="shop" id="myShop"> -->
       <!-- <div id="real-side"> -->
-        <button>
+        <!-- <button>
           <i id="menu" class="fas fa-bars" onclick="openNav()"></i>
-        </button>
+        </button> -->
         <!--The menu icon that opens the hided side menu-->
-        <a href="home.php">
+        <!-- <a href="home.php">
         <button>
           <i id="home" class="fas fa-home"><p class="t-home">home</p></i>
         </button>
-        </a>
+        </a> -->
         <!--The home icon-->
-        <button>
+        <!-- <button>
           <i id="setting" class="fas fa-cog"><p class="t-setting">setting</p></i>
-        </button>
+        </button> -->
       <!-- </div> -->
     <!-- </div> -->
     <!-- The end of the visible menu at the side -->
 
     <!-- Start of the Main content -->
     <div id="myMain-content" class="main-content">
-      <div class="subpages">
-        <!-- <div class="dropdown">
-          <a href="#"><button class="dropbtn">Blog</button></a>
-        </div>
-        <div class="dropdown1">
-          <a href="stockphoto.php"><button class="dropbtn1">Stock photos</button></a>
-        </div>
-        <div class="dropdown2">
-          <a href="artpaint.php"><button class="dropbtn2">Art paints</button></a>
-        </div> -->
-      </div>
-        <div class="dropdown">
-          <a href="original.php"><button class="dropbtn1">Original ideas</button></a>
-        </div>
-        <div class="first">
-          <div class="intro"><h2>What do you think the future world needs?</h2>
-            <br>
-            <p class="paragraph">We believe original works are really important in the future, however, people are not aware of it. We need to have our own original ideas in order to compete with others, we need to have our own unique ideas. Communication between original ideas can inspire new ideas, this is crucial for changing the future. Spot needs around you and be innovative! We are competing creativity here ! People can reward each other by Y dollars if they love each other's idea.  </p>
+          <div class="header"> 
+            <h1>The Mall of Youth</h1>
           </div>
-          <div class="logo">Logo</div>
+          <!-- The Logout button -->
+          <a href="homepage.php"><button class="logoutbtn">Logout</button></a>
+
+          <div class="new-image">
+            <img src="Image/water.jpeg" alt="" width="300px" height="500px">
+          </div>
+        <!-- <div class="new-menu">
+            <button>
+              <i id="menu" class="fas fa-bars" onclick="openNav()"></i>
+            </button> 
+          <a href="home.php">
+            <button>
+              <i id="home" class="fas fa-home"><p class="t-home">home</p></i>
+            </button>
+          </a> 
+            <button>
+              <i id="setting" class="fas fa-cog"></i>
+            </button> 
+        </div> -->
+        
+     <div class="subpages">
+        <div class="dropdown">
+          <a href="original.php"><button class="dropbtn"><p>Take a look</p></button></a>
+        </div>
+      </div> 
+        <div class="first">
+          <div class="intro"><h2>Welcome to the Mall of Youth</h2>
+            <br>
+            <p class="paragraph">We believe original works are really important in the future. </p>
+          </div>
         </div>
         
-        <div class="second">
-          <div class="video"><video src="/video/Q21 log equations (1) (1).mov" width="854px" height="480px" controls ></video>
-          </div>
-          <div class="text">
-            <p class="Video-Descript">Video Description</p>
-            <p class="video-content">This video will be a tour of this website</p>
-          </div>
-        </div>
+    
         <div class="blog">
           <h1 class="intro-blog">Our Mission</h1>
           <p class="blog1">This website should be a place for original ideas of high school students. There are going to be many originals here that spark inspirational ideas. People are going to be communicating with their originals and sharing ideas. This is not like Whatsapp, because Whatsapp is only for chatting, although people can also talk about their originals, under such environment, people are unlikely to do that. This is not like any other art paint website or stock photos website, because although they also show art paints and stock photos for people to download, people don't communicate about their ideas there, but we want ideas to collide with each other, and if people want to start a shop elsewhere, they need to pay money, whereas on my website, it is free.  The idea behind my website is "sharing and earning"; people share their originals and earn virtual money from others. People can reward each other by Y dollars if they love each other's idea.</p>
@@ -117,6 +118,14 @@
           <p class="art1">
             This platform do not have those terms and conditions that you must agree, and this platform provide clean and neat pages that are easy to navigate. This platform do not censor anything and everyone can enter if they want, you do not need to be an expert to participate. If you like to see different ideas and to be inspired, please consider join in this platform. We care copyrights, people can discuss and tell the author the improvements that can be made, they cannot pirate their ideas.   
           </p>
+        </div>
+        <div class="second">
+          <div class="video"><video src="/video/Q21 log equations (1) (1).mov" width="854px" height="480px" controls ></video>
+          </div>
+          <div class="text">
+            <p class="Video-Descript">Video Description</p>
+            <p class="video-content">This video will be a tour of this website</p>
+          </div>
         </div>
         <div class="end-page">
             <p class="thead">About us</p>

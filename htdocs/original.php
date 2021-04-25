@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css?rnd=11" />
+    <script src="main.js?rnd=1"></script>
     <link rel="stylesheet" href="/fontawesome-free-5.15.1-web/css/all.css" />
     <title>The Mall of Youth</title>
 </head>
@@ -14,12 +14,10 @@
         <!-- The title -->
         <h1>The Mall of Youth</h1>
       </div>
-      <!-- The search bar -->
-      <form class="search" action="index.php" method="POST">
+        <form class="search" action="index.php" method="POST">
         <input type="text" placeholder="Search" name="search" />
         <button type="submit"><i class="fa fa-search"></i></button>
       </form>
-
         <!-- The Logout button -->
         <a href="homepage.php"><button class="logoutbtn">Logout</button></a>
 
@@ -71,11 +69,16 @@
     <div id="myMain-content" class="main-content">
       <div class="subpages">
         <div class="dropdown">
-          <a href="original.php"><button class="dropbtn">Original ideas</button></a>
+          <a href="original.php"><button class="dropbtn"><p>Take a look</p></button></a>
         </div>
       </div>
-      <h2 class="welcome1">Share your creative and original ideas! It can be anything!</h2>
+
+      <h2 class="welcome1">Share your creative and original ideas! </h2>
+      <h3 class="welcome2">It can be anything! </h3>
       
+      
+      <h3 id="popular">Popular</h3>
+
       <div class="content-popular">
         <div class="photo1"></div>
         <div class="description">
@@ -84,8 +87,55 @@
           <h4 id="title1">The idea behind it:  </h4>
         </div>
       </div>
+
+      <div class="content-popular">
+        <div class="photo2"></div>
+        <div class="photo2"></div>
+        <div class="photo2"></div>
+        <div class="Title3">Title: </div>
+        <div class="Title3">Title: </div>
+        <div class="Title3">Title: </div>
+      </div>
+
+      <div class="content-popular">
+        <div class="photo2"></div>
+        <div class="photo2"></div>
+        <div class="photo2"></div>
+        <div class="Title3">Title: </div>
+        <div class="Title3">Title: </div>
+        <div class="Title3">Title: </div>
+      </div>
+
+      <h3 id="Wanyi">Wanyi's Picks</h3>
+      <div class="content-popular">
+        <div class="photo2"></div>
+        <div class="photo2"></div>
+        <div class="photo2"></div>
+        <div class="Title3">Title: </div>
+        <div class="Title3">Title: </div>
+        <div class="Title3">Title: </div>
+      </div>
     </div>
 
+    <div class="sub-content">
+      <h2 id="Siyuan">
+        Siyuan's picks
+      </h2>
+      <div class="content-siyuan">
+        <div class="picture"></div>
+        <div class="description1">
+          <h4 id="pic1">Title:  these contents will be written by users, so here should have php codes, I'll add them later </h4>
+          <h4 id="pic2">Introduction:  </h4>
+          <h4 id="pic1">The idea behind it:  </h4>
+        </div>
+        <div class=picture1>
+          <div class="pic3">Title:</div>
+        </div>
+        <div class=picture2>
+          <div class="pic4">Title:</div>
+        </div>
+      </div>
+    </div>
  
 
 </body>
