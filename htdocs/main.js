@@ -1,15 +1,15 @@
-function openNav() {
-  document.getElementById("mySide-menu").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "85px";
-  document.getElementById("myMain-content").style.backgroundColor =
-    "rgba(0,0,0,0.4)";
-}
+// function openNav() {
+//   document.getElementById("mySide-menu").style.width = "250px";
+//   document.getElementById("main").style.marginLeft = "85px";
+//   document.getElementById("myMain-content").style.backgroundColor =
+//     "rgba(0,0,0,0.4)";
+// }
 
-function closeNav() {
-  document.getElementById("mySide-menu").style.width = "0";
-  document.getElementById("main").style.marginLeft = "5";
-  document.getElementById("myMain-content").style.backgroundColor = "black";
-}
+// function closeNav() {
+//   document.getElementById("mySide-menu").style.width = "0";
+//   document.getElementById("main").style.marginLeft = "5";
+//   document.getElementById("myMain-content").style.backgroundColor = "black";
+// }
 
 const text = document.querySelector(".fancy");
 const strText = text.textContent;
@@ -58,3 +58,20 @@ function complete() {
 //   }
 //   setTimeout(type, 200);
 // })();
+
+window.onload = function () {
+  const effect = document.querySelector(".mission");
+  // console.log(effect);
+  window.addEventListener("scroll", scrollEffect);
+  function scrollEffect() {
+    if (window.scrollY >= 500) {
+      effect.style.opacity = "1";
+      effect.style.transform = "translateX(20px)";
+      effect.style.transition = "1s ease-in-out";
+    } else {
+      effect.style.opacity = "0";
+      effect.style.transform = "translateX(-50px)";
+    }
+  }
+  scrollEffect();
+};

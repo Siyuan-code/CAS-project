@@ -348,8 +348,7 @@ form.search::after {
 }
 /* Style of the main-content */
 .main-content {
-  width: 1280px;
-  height: 2900px;
+  height: 800px;
   position: absolute;
   top: 0px;
   margin-left: 0px;
@@ -361,7 +360,8 @@ form.search::after {
 
 .background {
   width: 1280px;
-  height: 2900px;
+  height: 800px;
+  /* background-repeat: no-repeat; */
   position: absolute;
   top: 600px;
   /* right: 1000px; */
@@ -392,7 +392,6 @@ form.search::after {
 }
 
 .main-content2 {
-  width: 1200px;
   height: 2900px;
   position: absolute;
   top: 55px;
@@ -403,7 +402,6 @@ form.search::after {
 }
 
 .sub-content {
-  width: 1200px;
   height: 2000px;
   position: relative;
   top: 1970px;
@@ -451,6 +449,22 @@ form.search::after {
   z-index: 4;
 }
 
+.sub-first {
+  position: relative;
+  top: 800px;
+  height: 800px;
+  background: white;
+}
+
+.mission {
+  font-size: 50px;
+  position: relative;
+  left: 100px;
+}
+
+.mission-content {
+  width: 400px;
+}
 /* Style of the dropdown div of *stock photos* */
 .dropdown1 {
   display: block;
