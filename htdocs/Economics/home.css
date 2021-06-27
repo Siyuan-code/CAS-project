@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  padding: 20px;
+  background: rgb(28, 204, 204);
+  overflow: hidden;
+}
+
+.menu {
+  background: rgb(100, 97, 231);
+}
+
+.introduction {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  top: 6em;
+  left: 5em;
+}
+
+#line2 {
+  position: relative;
+  top: 2em;
+  left: 2em;
+}
+
+h2 {
+  color: rgb(10, 135, 173);
+}
+
+.picture {
+  width: 400px;
+  position: absolute;
+  top: 8em;
+  right: 4em;
+}
+
+#line3 {
+  position: relative;
+  top: 3.5em;
+  left: 3.5em;
+}
+
+button {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 24px;
+  outline: none;
+  border: none;
+  background: rgba(54, 54, 54, 0.6);
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(22, 22, 22);
+}
+
+a {
+  color: white;
+}

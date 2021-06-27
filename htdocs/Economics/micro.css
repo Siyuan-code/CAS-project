@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: black;
+  height: 70px;
+  color: white;
+  overflow: hidden;
+}
+
+.title {
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+
+.sub-header {
+  background: rgb(0, 183, 255);
+  height: 40px;
+}
