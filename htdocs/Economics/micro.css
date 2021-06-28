@@ -21,3 +21,12 @@
   background: rgb(0, 183, 255);
   height: 40px;
 }
+
+.ppc {
+  height: 443px;
+  width: 790px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
