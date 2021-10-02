@@ -5,6 +5,7 @@ create table userinfo(
     userLastName varchar(128) not null
 );
 insert into userinfo (username, number) VALUES ('Siyuan', '10')
-
+Alter Table users Add column username
+ALTER TABLE menu CHANGE boisson gazeuse varchar (10);
 
 /Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot

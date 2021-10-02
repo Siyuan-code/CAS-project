@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f7f7f7;
+}
+
+.heading {
+  background: black;
+  height: 60px;
+}
+
+.logo {
+  color: #35c889;
+  font-size: 40px;
+  padding: 8px 20px 20px 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #90c889;
+  position: absolute;
+  left: 100px;
+  top: 18px;
+}
+
+.home {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home a {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.main {
+  height: 800px;
+  background: rgb(17, 179, 243);
+}
+
+.chatBox {
+  border: 1px solid black;
+  height: 575px;
+  width: 800px;
+  background: rgb(201, 211, 201);
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  left: 250px;
+}
+
+.messageBox {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  border-radius: 20px;
+  height: 20px;
+  width: 200px;
+  background: gray;
+}
+
+.signUpBtn {
+  width: 30%;
+  background: paleturquoise;
+  color: black;
+  padding: 14px 20px;
+  margin: 50px 50px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  outline: none;
+  position: relative;
+  margin-left: 140px;
+}
+
+.wrapper {
+  background: #fff;
+  width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+    0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.users {
+  padding: 25px 30px;
+}
+
+.users header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.wrapper img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.users header .content {
+  display: flex;
+}
+
+.users header .content img {
+  height: 50px;
+  width: 50px;
+}
+
+.users header .details {
+  margin-left: 15px;
+}
+
+.users header .details span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.users header .logout {
+  color: #fff;
+  font-size: 17px;
+  padding: 7px 15px;
+  background: #333;
+  border-radius: 5px;
+}
+
+.users .search {
+  margin: 20px 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.users .search .text {
+  font-size: 18px;
+}
+.users .search input {
+  position: absolute;
+  height: 42px;
+  width: calc(100% - 50px);
+  border: 1px solid #ccc;
+  padding: 0 13px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.users .search button {
+  width: 47px;
+  height: 42px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #333;
+  border-radius: 0 5px 5px 0;
+}

@@ -87,6 +87,7 @@
   text-align: left;
   margin-top: 20px;
   margin-left: 10px;
+  padding-bottom: 20px;
 }
 
 .circular {
@@ -139,4 +140,38 @@
   text-decoration: none;
   font-size: 20px;
   color: rgb(0, 0, 0);
+}
+
+.demandCurve {
+  height: 470px;
+  width: 790px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.PEDcurve {
+  height: 470px;
+  width: 790px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.descriptionPED {
+  width: 450px;
+  height: 470px;
+  border: 1px solid black;
+  position: absolute;
+  top: 600px;
+  right: 20px;
+  text-align: center;
+}
+
+.PEDdescription {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
 }

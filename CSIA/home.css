@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  height: 680px;
+  background: #436285;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.logo {
+  color: #35c889;
+  font-size: 40px;
+  padding: 50px 20px 20px 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #90c889;
+  position: absolute;
+  left: 100px;
+  top: 60px;
+}
+
+.wel {
+  font-size: 50px;
+  z-index: 99;
+  margin-left: 50px;
+  margin-top: 50px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.line1 {
+  color: #92ffa6;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.line2 {
+  color: #92ffa6;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.line3 {
+  color: white;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.rellax {
+  opacity: 3%;
+  font-size: 500px;
+  position: relative;
+  top: -240px;
+  padding: 0px 0px;
+}
+
+.logo1 {
+  font-size: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #e2e045;
+  position: relative;
+  top: 50px;
+  left: 120px;
+}
+
+.signUp {
+  background: rgb(92, 180, 207);
+  width: 100px;
+  height: 40px;
+  color: rgb(51, 223, 200);
+  font-size: 15px;
+  float: left;
+  border: 1.5px solid rgb(45, 117, 199);
+  border-radius: 20px;
+  margin-top: 50px;
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+  outline: none;
+}
+
+.signUp a {
+  text-decoration: none;
+  color: black;
+}
+
+.AskForListen {
+  position: absolute;
+  top: 60px;
+  right: 30em;
+}
+
+.AskForListen a {
+  color: black;
+  text-decoration: none;
+}
+
+.AskForListen a:hover {
+  border-bottom: 3px solid black;
+}
+
+.chat {
+  position: absolute;
+  top: 60px;
+  right: 20em;
+}
+
+.chat a {
+  color: black;
+  text-decoration: none;
+}
+
+.chat a:hover {
+  border-bottom: 3px solid black;
+}
+
+i {
+  position: absolute;
+  top: 60px;
+  right: 13em;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+i:hover {
+  color: #9fa0a0;
+}
+
+.first-page {
+  height: 1100px;
+  background-color: rgb(107, 211, 230);
+}
+
+.box {
+  border: none;
+  height: 40em;
+  position: relative;
+  width: 40em;
+}
+
+.mission {
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+
+.mission-text {
+  position: relative;
+  top: 3em;
+  left: 3em;
+  border: none;
+  font-size: 20px;
+  width: 25em;
+}
+
+.mainDiv {
+  position: relative;
+  width: 412px;
+  height: 380px;
+  margin: 0px auto;
+  top: -450px;
+  right: -25em;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background: rgb(203, 206, 55);
+  border: solid 2px #fff;
+  transform: skew(180deg, 210deg);
+  position: absolute;
+  top: 43px;
+  left: -100px;
+}
+
+.square2 {
+  width: 200px;
+  height: 200px;
+  background: rgb(203, 206, 55);
+  border: solid 2px #fff;
+  transform: skew(180deg, 150deg);
+  position: absolute;
+  left: 102px;
+  top: 43px;
+}
+
+.square3 {
+  width: 228px;
+  height: 200px;
+  background: rgb(203, 206, 55);
+  border: solid 2px #fff;
+  transform: rotate(150deg) translate(-40px, -2px) skew(30deg, 0deg);
+  position: absolute;
+  left: -48px;
+  top: -100px;
+}
+
+.box2 {
+  position: absolute;
+  top: 1250px;
+  height: 40em;
+  width: 40em;
+  /* border: 1px solid black; */
+}
+
+.box2 h1 {
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+
+.privacy {
+  border: none;
+  position: relative;
+  top: 40px;
+  left: 90px;
+  font-size: 20px;
+  width: 25em;
+}
+
+.safety {
+  border: none;
+  position: relative;
+  top: 40px;
+  left: 90px;
+  font-size: 20px;
+  width: 25em;
+}
+
+.ball {
+  position: relative;
+  top: -360px;
+  right: -900px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #35c889;
+  animation: bounce 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 200px, 0);
+  }
+}
+
+.endpage {
+  position: relative;
+  background: rgb(71, 134, 121);
+  height: 300px;
+}
+
+.about {
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
