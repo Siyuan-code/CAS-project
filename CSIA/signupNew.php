@@ -107,8 +107,13 @@
             placeholder="please enter your grade as only a number"
             />
         </div>
+        <label for="photo">Profile photo</label>
         <div class="field image">
-            <input type="file" name="photo" id="">
+            <input type="file" name="photo" id="photo">
+        </div>
+        <label for="photo">Canvas photo</label>
+        <div class="field image">
+            <input type="file" name="canva" id="canva">
         </div>
         <div class="field button">
             <input type="submit" value="sign up" class="signUpBtn" name="submit">

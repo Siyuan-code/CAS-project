@@ -18,7 +18,7 @@ searchBar.onkeyup = () =>{
         searchBar.classList.remove("active");
     }
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "search.php", true);
+    xhr.open("POST", "search1.php", true);
     xhr.onload = ()=>{
         if(xhr.readyState === XMLHttpRequest.DONE){
             if(xhr.status === 200){
@@ -38,6 +38,7 @@ setInterval(()=>{
         if(xhr.readyState === XMLHttpRequest.DONE){
             if(xhr.status === 200){
                 let data = xhr.response;
+                console.log(data);
                 if(!searchBar.classList.contains("active")){
                     usersList.innerHTML = data;
                 }
@@ -46,6 +47,3 @@ setInterval(()=>{
     }
     xhr.send();
 }, 500) //this function will run frequently after 500ms
-
-
-

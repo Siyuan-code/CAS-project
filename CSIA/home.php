@@ -16,9 +16,6 @@ session_start();
     <button class="signUp">
       <a href='signupNew.php'>Sign up</a>
     </button>
-    <h3 class="AskForListen">
-      <a href="Listener.html">Ask for listener</a>
-    </h3>
     <h3 class="chat"><a href="chat1.php">Chat</a></h3>
     <i class="fas fa-bell"></i>
     <div class="background">

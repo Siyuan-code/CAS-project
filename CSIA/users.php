@@ -8,9 +8,7 @@
         $output .= "No users are available to chat";
     }
     elseif(mysqli_num_rows($sql) > 0){
-        while($row = mysqli_fetch_assoc($sql)){
-            include "searchData.php";
-        }
+        include "searchData.php";
     }
 
     echo $output;

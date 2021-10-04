@@ -23,6 +23,9 @@ if(!isset($_SESSION['unique_id'])){
       <h2 class="name">Rellax</h2>
       <h2 class="home"><a href="homeafter.php">Home</a></h2>
       <a href="logout.php?logout_id=<?php echo $row['uniqueid'] ?>" class="logout">Logout</a>
+      <h3 class="profile"><a href="profile.php">Profile</a></h3>
+      <h3 class="resource"><a href="resource.php">Resources</a></h3>
+      <h3 class="browse"><a href="browse.php">Browse Listeners</a></h3>
     </div>
     <div class="main">
       <div class="wrapper">
@@ -86,7 +89,7 @@ if(!isset($_SESSION['unique_id'])){
           <button><i class="fab fa-telegram-plane"></i></button>
         </form>
     </div>
-    <script src="search.js"></script>
+    <script src="search1.js"></script>
     <script src="chat.js"></script>
   </body>
 </html>

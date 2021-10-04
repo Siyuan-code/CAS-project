@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    background: black;
+    height: 60px;
+  }
+  
+  .logo {
+    color: #35c889;
+    font-size: 40px;
+    padding: 8px 20px 20px 50px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  
+  .name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #90c889;
+    position: absolute;
+    left: 100px;
+    top: 18px;
+  }
+  
+  .home {
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  
+  .home a {
+    text-decoration: none;
+    color: rgb(80, 204, 183);
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    cursor: pointer;
+  }
+  
+  .main {
+    background: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+    height: 800px;
+  }
+
+  .heading .logout {
+    color: #000;
+    font-size: 17px;
+    padding: 7px 15px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.main .canva {
+    background: rgb(99, 211, 211);
+    position: absolute;
+    top: 60px;
+    height: 200px;
+    width: 100vw;
+}
+
+.canvas {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 500px;
+    top: 250px;
+}
+
+.canvas input[type="file"]{
+    font-size: 20px;
+    text-decoration: none;
+    outline: none;
+}
+
+.userinfo{
+    width: 100vw;
+    height: 400px;
+    background-color: rgb(243, 243, 243);
+}
+
+.profilePhoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: grey;
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+
+.username{
+    position: relative;
+    left: 200px;
+    top: -25px;
+}
+
+.userinfo .profilePhoto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.userinfo .userinfos {
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(223, 223, 223);
+    position: relative;
+    left: 200px;
+
+}
+
+.userinfo .userinfos h2{
+    width: 300px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+.userinfo .userinfos .description p{
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+.button input{
+  font-size: 20px;
+  text-decoration: none;
+  outline:none;
+  background: paleturquoise;
+  color: black;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  outline: none;
+  position: relative;
+  top: 180px;
+  left: 780px;
+  height: 50px;
+  width: 100px;
+}
+
+.photo{
+  position: relative;
+  top: 300px;
+  left: 100px;
+  height: 205px;
+  width: 100vw;
+}
+
+.photo img{
+  position: relative;
+  top: -300px;
+  left: -100px;
+  height: 200px;
+  width: 100vw;
+}
+
+.email input{
+  position: relative;
+  top: 170px;
+  left: 600px;
+}
+
+.chat a {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 20px;
+  right: 300px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.resource a{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 20px;
+  right: 400px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.browse a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 20px;
+  right: 550px;
+}

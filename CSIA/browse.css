@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .heading {
+    background: black;
+    height: 60px;
+  }
+  
+  .logo {
+    color: #35c889;
+    font-size: 40px;
+    padding: 8px 20px 20px 50px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  
+  .name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #90c889;
+    position: absolute;
+    left: 100px;
+    top: 18px;
+  }
+  
+  .home {
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  
+  .home a {
+    text-decoration: none;
+    color: rgb(80, 204, 183);
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    cursor: pointer;
+  }
+
+
+  .heading .logout {
+    color: #000;
+    font-size: 17px;
+    padding: 7px 15px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .chat a {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    right: 500px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .resource a{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    right: 250px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .profile a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    right: 380px;
+  }
+
+.main {
+    width: 100vw;
+    height: 600px;
+    background: rgb(255, 255, 255);
+}
+
+.main h2{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.container{
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    margin-bottom: 20px;
+}
+
+.container h2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin-bottom: 20px;
+}
+
+.space{
+    height: 200px;
+    width: 100vw;
+}

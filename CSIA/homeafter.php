@@ -1,6 +1,8 @@
 <?php
     session_start();
+
 ?>
+
 
 
 <!DOCTYPE html>
@@ -9,17 +11,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rellax</title>
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="home.css?rnd=1" />
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" />
   </head>
   <body>
+    <?php 
+    include_once "data.php";
+    $sql = mysqli_query($conn, "SELECT * FROM userinfo WHERE uniqueid = {$_SESSION['unique_id']}");
+    if(mysqli_num_rows($sql) > 0){
+      $row = mysqli_fetch_assoc($sql);
+    }
+    
+    ?>
+
+
     <button class="signUp">
-      <a href='loginNew.php'>Logout</a>
+      <a href="logout.php?logout_id=<?php echo $row['uniqueid'] ?>">Logout</a>
     </button>
-    <h3 class="AskForListen">
-      <a href="Listener.html">Ask for listener</a>
-    </h3>
     <h3 class="chat"><a href="chat1.php">Chat</a></h3>
+    <h3 class="resource"><a href="resource.php">Resources</a></h3>
+    <h3 class="browse"><a href="browse.php">Browse Listeners</a></h3>
     <i class="fas fa-bell"></i>
     <div class="background">
       <h2 class="logo">R</h2>
