@@ -7,5 +7,7 @@ create table userinfo(
 insert into userinfo (username, number) VALUES ('Siyuan', '10')
 Alter Table users Add column username
 ALTER TABLE menu CHANGE boisson gazeuse varchar (10);
+ALTER TABLE Books;
+RENAME COLUMN BID TO BooksID;
 
 /Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot

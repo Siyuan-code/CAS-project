@@ -1,3 +1,8 @@
+<?php 
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,11 +13,13 @@
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" />
   </head>
   <body>
-    <button class="signUp"><a href="signup.php">Sign up</a></button>
+    <button class="signUp">
+      <a href='signupNew.php'>Sign up</a>
+    </button>
     <h3 class="AskForListen">
       <a href="Listener.html">Ask for listener</a>
     </h3>
-    <h3 class="chat"><a href="chat.php">Chat</a></h3>
+    <h3 class="chat"><a href="chat1.php">Chat</a></h3>
     <i class="fas fa-bell"></i>
     <div class="background">
       <h2 class="logo">R</h2>
@@ -22,6 +29,35 @@
       <h2 class="line2">Do you want to find a person to listen to you?</h2>
       <h2 class="line3">Come here and find someone to talk to</h2>
       <h1 class="rellax">RELLAX</h1>
+    </div>
+    <div class="chat-box">
+      <div class="chat-outgoing">
+        <div class="details1">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed.</p>
+        </div>
+      </div>
+      <div class="chat-incoming">
+        <img src="img.jpg" alt="">
+        <div class="details1">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed.</p>
+        </div>
+      </div>
+      <div class="chat-outgoing">
+        <div class="details1">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed.</p>
+        </div>
+      </div>
+      <div class="chat-incoming">
+        <img src="img.jpg" alt="">
+        <div class="details1">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed.</p>
+        </div>
+      </div>
+      <div class="chat-outgoing">
+        <div class="details1">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed.</p>
+        </div>
+      </div>
     </div>
 
     <div class="first-page">

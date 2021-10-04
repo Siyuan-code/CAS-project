@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #f1f1f1;
+}
+
 .signup {
   background-color: rgb(102, 198, 211);
   width: 400px;
-  height: 1100px;
+  height: 1200px;
   border: 2px solid black;
   position: relative;
   left: 450px;
@@ -127,23 +131,61 @@
   background: paleturquoise;
   color: black;
   padding: 14px 20px;
-  margin: 50px 50px;
+  margin: 20px 50px;
   border: none;
   cursor: pointer;
   opacity: 0.9;
   outline: none;
   position: relative;
   margin-left: 140px;
+  margin-top: 50px;
 }
 
-.photo {
-  position: relative;
-  top: 20px;
-  margin-left: 50px;
-}
-
-.profile {
+.image{
   position: relative;
   top: 30px;
-  left: 40px;
+  left: 50px;
+}
+
+.image input[type="file"]{
+  padding: 14px 20px;
+}
+
+.signUpBtn p{
+  font-size: 15px;
+}
+
+.Back{
+  width: 40%;
+  background: paleturquoise;
+  color: black;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  outline: none;
+  position: relative;
+  margin-left: 140px;
+  margin-top: 80px;
+}
+
+.Back a{
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+.ThesignUp input{
+  font-size: 13px;
+}
+
+.signup .field i.active::before{
+  color: #333;
+  content: "\f070";
+}
+
+.signup .field i{
+  position: relative;
+  left: 310px;
+  top: -30px;
 }
