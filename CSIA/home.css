@@ -352,3 +352,37 @@ i:hover {
   top: 60px;
   right:650px;
 }
+
+.dropdown{
+  position: relative;
+  top: 90px;
+  left: 1000px;
+  background: rgb(194, 107, 107);
+  /* width: 20px; */
+  /* display: inline-block; */
+}
+
+.dropdown .dropbtn {
+  position: relative;
+  top: 150px;
+  color:rgb(0, 0, 0);
+  width: 70px;
+  height: 30px;
+}
+
+.dropdown-content{
+  /* display: none; */
+  position: absolute;
+  /* background: #f1f1f1; */
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a{
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background: #ddd;
+}

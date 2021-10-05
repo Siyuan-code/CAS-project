@@ -14,8 +14,9 @@
     !empty($gender) || !empty($participant) || !empty($worker)){
         if(filter_var($email, FILTER_VALIDATE_EMAIL)){
             $sql = mysqli_query($conn, "SELECT email FROM userinfo WHERE email = '{$email}'");
-            if(mysqli_num_rows($sql) > 0){
-                echo "$email alrady exists";
+            $sql5 = mysqli_query($conn, "SELECT username FROM userinfo WHERE username = '{$username}'");
+            if(mysqli_num_rows($sql) > 0 || mysqli_num_rows($sql5) > 0){
+                echo "sign up with a different username or email";
             }
             else{
                 if(isset($_FILES['photo'], $_FILES['canva'])){

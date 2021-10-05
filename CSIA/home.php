@@ -9,15 +9,18 @@ session_start();
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rellax</title>
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="home.css?rnd=1" />
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css" />
   </head>
   <body>
     <button class="signUp">
       <a href='signupNew.php'>Sign up</a>
     </button>
     <h3 class="chat"><a href="chat1.php">Chat</a></h3>
+    <h3 class="browse"><a href="browse.php">Browse Listeners</a></h3>
     <i class="fas fa-bell"></i>
+</div>
     <div class="background">
       <h2 class="logo">R</h2>
       <h2 class="name">Rellax</h2>

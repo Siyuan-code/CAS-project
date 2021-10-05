@@ -1,6 +1,6 @@
 const form = document.querySelector(".login form");
 loginBtn = form.querySelector(".button input");
-
+errorText = form.querySelector(".error-txt");
 
 form.onsubmit = (e)=>{
     e.preventDefault();  // prevent form from submitting
@@ -16,6 +16,10 @@ loginBtn.onclick = ()=>{
                 console.log(data);
                 if(data == "success"){
                     location.href = "../CSIA/homeafter.php";
+                }
+                else{
+                    errorText.textContent = data;
+                    errorText.style.display = "block";
                 }
             }
         }

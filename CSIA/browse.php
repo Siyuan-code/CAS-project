@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="browse.css?rnd=2" />
+    <link rel="stylesheet" href="browse.css?rnd=6" />
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" />
     <title>Browse listeners</title>
 </head>
@@ -28,14 +28,36 @@ session_start();
         <h3 class="profile"><a href="profile.php">Profile</a></h3>
         <h3 class="resource"><a href="resource.php">Resources</a></h3>
         <h3 class="chat"><a href="chat1.php">Chat</a></h3>
-      </div>
-      <div class="main">
-        <section class="wrapper">
-          <h2>Browse listeners</h2>
-            <div class="container">
-            </div>
-      </div>
-      </section>
-      <script src="browse.js"></script>
+    </div>
+    <div class="main">
+        <div class="wrapper">
+            <section class="users">
+                <div class="search">
+                    <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="search by gender..."
+                    />
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="search1">
+                    <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="search by occupation..."
+                    />
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="users-list">
+
+                </div>
+            </section>
+
+        </div>
+    </div>
+        <script src="browse.js?rnd=3"></script>
+        <script src="browse2.js"></script>
 </body>
 </html>

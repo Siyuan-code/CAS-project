@@ -3,6 +3,7 @@
 <div class="signup">
     <h2 class="title">Welcome to Rellax !</h2>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="ThesignUp" enctype="multipart/form-data">
+    
         <div class="field input">
             <label for="username">Username:</label>
             <input
@@ -118,15 +119,17 @@
         <div class="field button">
             <input type="submit" value="sign up" class="signUpBtn" name="submit">
         </div>
-        
+        <div class="error-txt"></div>
     </form>
         <button class="Back"><a href="loginNew.php">Login</a></button>
 </div>
 <script src="signup.js"></script>
-<script src="signuptry.js"></script>
+<script src="signuptry.js?rnd=1"></script>
+
         <br>
         <br>
         <br>
         <br>
+
 </body>
-</html>
+

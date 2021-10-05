@@ -1,5 +1,6 @@
 const form = document.querySelector(".signup form");
 signupBtn = form.querySelector(".button input");
+errorText = form.querySelector(".error-txt");
 
 form.onsubmit = (e)=>{
     e.preventDefault();  // prevent form from submitting
@@ -15,6 +16,10 @@ signupBtn.onclick = ()=>{
                 console.log(data);
                 if(data == "success"){
                     location.href = "../CSIA/loginNew.php";
+                }
+                else{
+                    errorText.textContent = data;
+                    errorText.style.display = "block";
                 }
             }
         }

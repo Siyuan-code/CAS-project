@@ -4,6 +4,7 @@
     <div class="login">
       <h2 class="title">Welcome to Rellax !</h2>
       <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST" class="ThesignUp">
+      <div class="error-txt"></div>
         <div class="field input">
           <label for="username">Username:</label>
           <input
@@ -32,6 +33,6 @@
         </div>
         <button class="Back"><a href="home.php">Back to Home</a></button>
         <script src="login.js"></script>
-        <script src="logintry.js"></script>
+        <script src="logintry.js?rnd=1"></script>
   </body>
 </html>
