@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="browse.css?rnd=6" />
+    <link rel="stylesheet" href="browse.css?rnd=8" />
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" />
     <title>Browse listeners</title>
 </head>
@@ -58,6 +58,7 @@ session_start();
         </div>
     </div>
         <script src="browse.js?rnd=3"></script>
-        <script src="browse2.js"></script>
+        <script src="browse2.js?rnd=1"></script>
+        <script src="assign.js"></script>
 </body>
 </html>

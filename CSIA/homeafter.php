@@ -11,7 +11,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rellax</title>
-    <link rel="stylesheet" href="home.css?rnd=4" />
+    <link rel="stylesheet" href="home.css?rnd=5" />
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css" />
   </head>
   <body>
@@ -32,6 +32,8 @@
     <h3 class="resource"><a href="resource.php">Resources</a></h3>
     <h3 class="browse"><a href="browse.php">Browse Listeners</a></h3>
     <i class="fas fa-bell"></i>
+    <button class="change" onclick = "change()" >Change theme</button>
+    <button class="changeBack" onclick = "changeBack()" >Original theme</button>
     
     <div class="background">
       <h2 class="logo">R</h2>
@@ -104,5 +106,6 @@
     <div class="endpage">
       <h1 class="about">About us</h1>
     </div>
+    <script src="home.js"></script>
   </body>
 </html>

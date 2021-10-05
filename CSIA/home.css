@@ -6,7 +6,7 @@
 
 .background {
   height: 680px;
-  background: #436285;
+  background: rgb(69, 100, 136);
   z-index: -2;
   overflow: hidden;
 }
@@ -89,21 +89,6 @@
 .signUp a {
   text-decoration: none;
   color: black;
-}
-
-.AskForListen {
-  position: absolute;
-  top: 60px;
-  right: 30em;
-}
-
-.AskForListen a {
-  color: black;
-  text-decoration: none;
-}
-
-.AskForListen a:hover {
-  border-bottom: 3px solid black;
 }
 
 .chat {
@@ -353,36 +338,39 @@ i:hover {
   right:650px;
 }
 
-.dropdown{
-  position: relative;
-  top: 90px;
-  left: 1000px;
-  background: rgb(194, 107, 107);
-  /* width: 20px; */
-  /* display: inline-block; */
-}
-
-.dropdown .dropbtn {
-  position: relative;
-  top: 150px;
-  color:rgb(0, 0, 0);
-  width: 70px;
-  height: 30px;
-}
-
-.dropdown-content{
-  /* display: none; */
-  position: absolute;
-  /* background: #f1f1f1; */
-  min-width: 160px;
-  z-index: 1;
-}
-
-.dropdown-content a{
-  display: block;
+.change{
   text-decoration: none;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 60px;
+  left:250px;
+  background: rgb(92, 180, 207);
+  width: 150px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  float: left;
+  border: 1.5px solid rgb(45, 117, 199);
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
 }
 
-.dropdown-content a:hover {
-  background: #ddd;
+.changeBack{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 110px;
+  left:250px;
+  background: rgb(92, 180, 207);
+  width: 150px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  float: left;
+  border: 1.5px solid rgb(45, 117, 199);
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+
 }

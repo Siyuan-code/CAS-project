@@ -15,6 +15,7 @@ if(mysqli_num_rows($sql) > 0){
         <h2>type : '. $row['participant'] .'</h2>
         <h2>gender : '. $row['gender'] .'</h2>
         <h2>occupation: '. $row['worker'] .' </h2>
+        <button><a href="chat1.php">Start Chat</a></button>
             </div>
         ';
     }

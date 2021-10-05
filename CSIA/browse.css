@@ -140,7 +140,7 @@
 
 .users-list .container{
     margin-bottom: 60px;
-    background: rgb(230, 230, 230);
+    background: rgb(99, 221, 205);
     height: 230px;
 }
 
@@ -180,3 +180,23 @@
     border-radius: 0 5px 5px 0;
     margin-left: 300px;
   }
+
+.container button{
+    background: rgb(92, 180, 207);
+  width: 100px;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  float: left;
+  border: 1.5px solid rgb(45, 117, 199);
+  border-radius: 20px;
+  position: relative;
+  top: -100px;
+left: 500px;
+  cursor: pointer;
+  outline: none;
+}
+
+.container button a{
+color: black;
+}
