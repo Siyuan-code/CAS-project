@@ -23,11 +23,7 @@ session_start();
     <div class="heading">
         <h2 class="logo">R</h2>
         <h2 class="name">Rellax</h2>
-        <h2 class="home"><a href="homeafter.php">Home</a></h2>
-        <a href="logout.php?logout_id=<?php echo $row['uniqueid'] ?>" class="logout">Logout</a>
-        <h3 class="profile"><a href="profile.php">Profile</a></h3>
-        <h3 class="resource"><a href="resource.php">Resources</a></h3>
-        <h3 class="chat"><a href="chat1.php">Chat</a></h3>
+        <h2 class="home"><a href="home.php">Home</a></h2>
     </div>
     <div class="main">
         <div class="wrapper">
