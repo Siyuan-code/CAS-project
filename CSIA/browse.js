@@ -2,6 +2,7 @@ usersList = document.querySelector(".users .users-list");
 const searchBar = document.querySelector(".search input");
 searchBtn = document.querySelector(".search button");
 
+
 searchBtn.onclick = ()=>{
     console.log("Hello");
 }

@@ -139,7 +139,7 @@
 }
 
 .users-list .container{
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     background: rgb(99, 221, 205);
     height: 230px;
 }
@@ -199,4 +199,18 @@ left: 500px;
 
 .container button a{
 color: black;
+}
+
+.add{
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+.add1{
+  position: absolute;
+  left: 1050px;
+  top: 100px;
+  background-color: rgb(255, 255, 255);
 }
