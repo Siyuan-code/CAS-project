@@ -5,7 +5,6 @@
         $outgoing_id = mysqli_real_escape_string($conn, $_POST['outgoing_id']);
         $incoming_id = mysqli_real_escape_string($conn, $_POST['incoming_id']);
         $output = "";
-
         $sql = "SELECT * FROM chat 
                 LEFT JOIN userinfo ON userinfo.uniqueid = chat.outgoingID
                 WHERE (outgoingID = {$outgoing_id} AND incomingID = {$incoming_id}
@@ -35,5 +34,4 @@
     else{
         header("../CSIA/loginNew.php");
     }
-
 ?>
