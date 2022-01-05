@@ -15,7 +15,7 @@ signupBtn.onclick = ()=>{
                 let data = xhr.response;
                 console.log(data);
                 if(data == "success"){
-                    location.href = "../CSIA/loginNew.php";
+                    location.href = "../public_html/loginNew.php";
                 }
                 else{
                     errorText.textContent = data;

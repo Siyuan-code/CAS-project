@@ -5,7 +5,8 @@ $searchTerm = mysqli_real_escape_string($conn, $_POST['searchTerm']);
 
 $output = "";
 $outgoing_id = $_SESSION['unique_id'];
-$sql = mysqli_query($conn, "SELECT * FROM userinfo WHERE NOT uniqueid = '{$outgoing_id}' AND gender='{$searchTerm}' AND participant = 'listener'");
+$sql = mysqli_query($conn, "SELECT * FROM userinfo WHERE NOT uniqueid = '{$outgoing_id}' 
+AND gender='{$searchTerm}' AND participant = 'listener'");
 
 
 if(mysqli_num_rows($sql) > 0){
