@@ -11,3 +11,6 @@ ALTER TABLE Books;
 RENAME COLUMN BID TO BooksID;
 
 /Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot
+
+
+// https://listeningplatform.000webhostapp.com/home.php
