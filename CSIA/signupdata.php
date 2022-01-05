@@ -39,7 +39,7 @@
                         $new_img_name = $time.$img_name;
                         $new_img_name1 = $time1.$img_name1;
 
-                        if(move_uploaded_file($tmp_name, "../CSIA/image/".$new_img_name) && move_uploaded_file($tmp_name1, "../CSIA/canva/".$new_img_name1)){
+                        if(move_uploaded_file($tmp_name, "../public_html/image/".$new_img_name) && move_uploaded_file($tmp_name1, "../public_html/canva/".$new_img_name1)){
                             $status = "Active Now";
                             $random_id = rand(time(), 10000000);
 
