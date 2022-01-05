@@ -6,7 +6,7 @@ include_once "heading.php";
 <?php 
 session_start();
 if(!isset($_SESSION['unique_id'])){
-  header("location: ../CSIA/loginNew.php");
+  header("location: ../loginNew.php");
 }
 ?>
 
