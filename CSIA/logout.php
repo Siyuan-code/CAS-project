@@ -9,14 +9,14 @@
             if($sql){
                 session_unset();
                 session_destroy();
-                header("location: ../CSIA/loginNew.php");
+                header("location: ../loginNew.php");
             }
         }
         else{
-            header("location: ../CSIA/loginNew.php");
+            header("location: ../loginNew.php");
         }
     }
     else{
-            header("location: ../CSIA/loginNew.php");
+            header("location: ../loginNew.php");
     }
 ?>
