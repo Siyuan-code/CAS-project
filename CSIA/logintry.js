@@ -15,7 +15,7 @@ loginBtn.onclick = ()=>{
                 let data = xhr.response;
                 console.log(data);
                 if(data == "success"){
-                    location.href = "../homeafter.php";
+                    location.href = "../CSIA/homeafter.php";
                 }
                 else{
                     errorText.textContent = data;
