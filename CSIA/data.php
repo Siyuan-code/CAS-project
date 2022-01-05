@@ -1,9 +1,9 @@
 <?php
 
 $serverName = "localhost";
-$dBUsername = "id18215526_listeningplatform";
-$dBPassword = "F(+3YLGuB+2|97YJ";
-$dBName = "id18215526_csia";
+$dBUsername = "root";
+$dBPassword = "root";
+$dBName = "CSIA";
 
 // $serverName = "sql202.epizy.com";
 // $dBUsername = "epiz_30722674";
