@@ -33,6 +33,6 @@
         </div>
         <button class="Back"><a href="home.php">Back to Home</a></button>
         <script src="login.js"></script>
-        <script src="logintry.js?rnd=2"></script>
+        <script src="logintry.js?rnd=3"></script>
   </body>
 </html>

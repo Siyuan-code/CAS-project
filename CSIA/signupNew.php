@@ -123,7 +123,7 @@
     </form>
         <button class="Back"><a href="loginNew.php">Login</a></button>
 </div>
-<script src="signup.js?rnd=1"></script>
+<script src="signup.js?rnd=2"></script>
 <script src="signuptry.js?rnd=1"></script>
 
         <br>
