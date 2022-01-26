@@ -39,13 +39,16 @@
                         $new_img_name = $time.$img_name;
                         $new_img_name1 = $time1.$img_name1;
 
-                        if(move_uploaded_file($tmp_name, "../CSIA/image/".$new_img_name) && move_uploaded_file($tmp_name1, "../CSIA/canva/".$new_img_name1)){
+                        if(move_uploaded_file($tmp_name, "../CSIA/image/".$new_img_name) && 
+                        move_uploaded_file($tmp_name1, "../CSIA/canva/".$new_img_name1)){
                             $status = "Active Now";
                             $random_id = rand(time(), 10000000);
 
 
-                            $sql2 = mysqli_query($conn, "INSERT INTO userinfo (username, email, pwd, gender, participant, worker, grade, userstatus, uniqueid, photo, canva) 
-                            VALUES ('{$username}','{$email}','{$pwd}','{$gender}','{$participant}','{$worker}','{$grade}','{$status}',{$random_id}, '{$new_img_name}', '{$new_img_name1}');");
+                            $sql2 = mysqli_query($conn, "INSERT INTO userinfo (username, email, pwd, gender, participant, 
+                            worker, grade, userstatus, uniqueid, photo, canva) 
+                            VALUES ('{$username}','{$email}','{$pwd}','{$gender}','{$participant}',
+                            '{$worker}','{$grade}','{$status}',{$random_id}, '{$new_img_name}', '{$new_img_name1}');");
 
                             if($sql2){
                                 $sql3 = mysqli_query($conn, "SELECT * FROM userinfo WHERE email = '{$email}'");
